@@ -527,15 +527,10 @@
   "credit": [
     {
       "type": "text",
-      "text": "Data provided by Now For Wrath. Check out their YouTube channel with Battle Reports and talks about the game "
+      "text": "Data provided by Hyperias and AHCreates90. "
     },
-    {
-      "type": "url",
-      "text": "Here!",
-      "url": "https://www.youtube.com/@NowForWrathGaming"
-    }
-  ],
-  "game": "Middle-Earth Strategy Battle Game - 2024",
+    
+  "game": "Middle-Earth Strategy Battle Game - 2024 - Custom Army Lists",
   "profileCredits": "Profiles provided by Antonio Andrino (HYBERIAS on Reddit) and Alex Hurcomb (AHCreates90).",
   "toggles": [
     {
