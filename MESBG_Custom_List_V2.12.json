@@ -6,7 +6,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/data2024.update.json",
-    "contentVersion": "2026.08.21.7"
+    "contentVersion": "2026.09.13.17"
   },
   "disallowMultipleFactions": true,
   "colors": {
@@ -2604,7 +2604,7 @@
         "alignment": "good",
         "additionalRules": [
           "A King Thengel's Company Army must always include King Thengel, who must be your Army's General.",
-          "A King Thengel's Company Army must always include Thorongil, **Eagle** of the Star.",
+          "A King Thengel's Company Army must always include Thorongil, Eagle of the Star.",
           "One Captain of **Rohan** may take the Royal Standard of **Rohan** for 40 points.",
           "**Elf** **Warrior** models can only be taken in a Warband led by Thorongil or Elladan & Elrohir."
         ],
@@ -2642,7 +2642,7 @@
         "alignment": "good",
         "additionalRules": [
           "The **Eagle** and The White Tree Army must always include Ecthelion II, Steward of **Gondor**, who must be your Army's General.",
-          "The **Eagle** and The White Tree Army must always include Thorongil, **Eagle** of the Star.",
+          "The **Eagle** and The White Tree Army must always include Thorongil, Eagle of the Star.",
           "This Army must not contain more than 33% Dúnedain models."
         ],
         "armyBonuses": [
@@ -3382,6 +3382,110 @@
         ],
         "side": "evil",
         "collection": "Expansion of Middle-earth"
+      },
+      {
+        "name": "Battle of Eregion",
+        "alignment": "good",
+        "collection": "Legends of Middle-earth",
+        "additionalRules": [
+          "A Battle of Eregion Army must always contain Elrond, who is always the Army's General.",
+          "Elf Warrior models can only be included in the Warband of an Elf Hero.",
+          "Dwarf Warrior models can only be included in the Warband of a Dwarf Hero."
+        ],
+        "armyBonuses": [
+          "Old Allies (Battle of Eregion)",
+          "Herald of the High King (Battle of Eregion)"
+        ],
+        "requiredChildren": [
+          {
+            "name": "Elrond, Master of Rivendell",
+            "points": 170,
+            "elementPropertyName": "heroes",
+            "mustBeLeader": true
+          }
+        ]
+      },
+      {
+        "name": "Kingdom of the Ered Luin",
+        "alignment": "good",
+        "collection": "Legends of Middle-earth",
+        "additionalRules": [
+          "If a Dwarf King is your General, they gain the Leader (Khazad Guard) special rule."
+        ],
+        "armyBonuses": [
+          "Treasures from times long past",
+          "Ancient Will (Ered Luin)",
+          "Wondrous Engines"
+        ]
+      },
+      {
+        "name": "Battle of Moria",
+        "alignment": "evil",
+        "collection": "Legends of Middle-earth",
+        "additionalRules": [
+          "A Battle of Moria Army must always include Azog, who is always the Army's General."
+        ],
+        "armyBonuses": [
+          "Savage Onslaught",
+          "Fury of the Pale Orc",
+          "Occupants of Moria",
+          "The Pale Orc's Demands"
+        ],
+        "requiredChildren": [
+          {
+            "name": "Azog, the Defiler",
+            "points": 175,
+            "elementPropertyName": "heroes",
+            "mustBeLeader": true
+          }
+        ]
+      },
+      {
+        "name": "Grishnákh's Horde",
+        "alignment": "evil",
+        "collection": "Legends of Middle-earth",
+        "additionalRules": [
+          "A Grishnákh's Horde Army must always include Grishnákh, who is always the Army's General.",
+          "Grishnákh and Snaga replace their Isengard keyword with the Mordor keyword."
+        ],
+        "armyBonuses": [
+          "Captain of Lugbúrz",
+          "Second in command",
+          "Orders from Barad-dûr",
+          "Go get em, maggots!"
+        ],
+        "requiredChildren": [
+          {
+            "name": "Grishnakh, Orc Captain\n(Grishnákh's Horde)",
+            "points": 55,
+            "elementPropertyName": "heroes",
+            "mustBeLeader": true
+          }
+        ]
+      },
+      {
+        "name": "Ride to Ravenhill",
+        "alignment": "good",
+        "collection": "Wardens Supplement",
+        "additionalRules": [
+          "A Ride to Ravenhill Army must always include Thorin Oakenshield, King Under the Mountain, who is always the Army's General.",
+          "All heroes in a Ride to Ravenhill Army (apart from Bofur) are always deployed as a single Warband."
+        ],
+        "armyBonuses": [
+          "Sons of Durin",
+          "Cut the tracers. Ride them to Ravenhill!",
+          "Fury of the King",
+          "Hang on lads, I'm coming!",
+          "Aim at his jambags!"
+        ],
+        "requiredChildren": [
+          {
+            "name": "Thorin Oakenshield, King Under the Mountain\n(Ride to Ravenhill)",
+            "points": 150,
+            "elementPropertyName": "heroes",
+            "mustBeLeader": true
+          }
+        ]
       }
     ],
     "heroicTiers": [
@@ -5730,6 +5834,10 @@
           {
             "name": "Defenders of Aglarond",
             "heroicTier": "Minor Hero"
+          },
+          {
+            "name": "Kingdom of the Ered Luin",
+            "heroicTier": "Minor Hero"
           }
         ],
         "points": 60,
@@ -5861,7 +5969,12 @@
       },
       {
         "name": "King's Champion Group",
-        "factions": [],
+        "factions": [
+          {
+            "name": "Kingdom of the Ered Luin",
+            "heroicTier": "Hero of Fortitude"
+          }
+        ],
         "points": 140,
         "hideStats": true,
         "unlimited": true,
@@ -9432,6 +9545,14 @@
           {
             "name": "Free People of the East",
             "heroicTier": "Hero of Fortitude"
+          },
+          {
+            "name": "Battle of Eregion",
+            "heroicTier": "Hero of Fortitude"
+          },
+          {
+            "name": "Kingdom of the Ered Luin",
+            "heroicTier": "Hero of Fortitude"
           }
         ],
         "unlimited": true,
@@ -10910,7 +11031,12 @@
       },
       {
         "name": "Ranger of the North",
-        "factions": [],
+        "factions": [
+          {
+            "name": "Remnants of Arnor",
+            "heroicTier": "Independent Hero"
+          }
+        ],
         "unlimited": true,
         "points": 25,
         "movement": 6,
@@ -14330,6 +14456,10 @@
           {
             "name": "Assault upon Minas Tirith",
             "heroicTier": "Hero of Fortitude"
+          },
+          {
+            "name": "Grishnákh's Horde",
+            "heroicTier": "Hero of Fortitude"
           }
         ],
         "unlimited": true,
@@ -14584,7 +14714,12 @@
       },
       {
         "name": "Mordor Orc Drummer",
-        "factions": [],
+        "factions": [
+          {
+            "name": "Grishnákh's Horde",
+            "heroicTier": "Independent Hero"
+          }
+        ],
         "unlimited": true,
         "points": 30,
         "movement": 6,
@@ -14756,7 +14891,12 @@
       },
       {
         "name": "Elrond, Master of Rivendell",
-        "factions": [],
+        "factions": [
+          {
+            "name": "Battle of Eregion",
+            "heroicTier": "Hero of Legend"
+          }
+        ],
         "points": 170,
         "movement": 6,
         "fight": 7,
@@ -14794,7 +14934,8 @@
             "availableIn": [
               "Rivendell",
               "Lindon",
-              "The Last Alliance"
+              "The Last Alliance",
+              "Battle of Eregion"
             ]
           }
         ],
@@ -15139,6 +15280,10 @@
           {
             "name": "Shadow of Imladris",
             "heroicTier": "Hero of Fortitude"
+          },
+          {
+            "name": "Battle of Eregion",
+            "heroicTier": "Hero of Fortitude"
           }
         ],
         "unlimited": true,
@@ -15187,7 +15332,8 @@
               "Rivendell",
               "Lindon",
               "The Last Alliance",
-              "Shadow of Imladris"
+              "Shadow of Imladris",
+              "Battle of Eregion"
             ]
           },
           {
@@ -17937,7 +18083,12 @@
       },
       {
         "name": "Azog, the Defiler",
-        "factions": [],
+        "factions": [
+          {
+            "name": "Battle of Moria",
+            "heroicTier": "Hero of Legend"
+          }
+        ],
         "points": 175,
         "movement": 6,
         "fight": 7,
@@ -18867,6 +19018,54 @@
         ],
         "specialRules": [
           "The Eastern Houses of the Dwarves"
+        ],
+        "wargear": [
+          "Heavy Dwarf Armour",
+          "Hand-and-a-half weapon"
+        ]
+      },
+      {
+        "name": "Dwarf King\n(Kingdom of the Ered Luin)",
+        "factions": [
+          {
+            "name": "Kingdom of the Ered Luin",
+            "heroicTier": "Hero of Valour"
+          }
+        ],
+        "points": 85,
+        "movement": 5,
+        "fight": 6,
+        "shoot": 4,
+        "strength": 4,
+        "defence": 8,
+        "attack": 2,
+        "wounds": 2,
+        "courage": 4,
+        "intelligence": 4,
+        "might": 2,
+        "will": 2,
+        "fate": 2,
+        "unlimited": true,
+        "race": [
+          "Dwarf"
+        ],
+        "faction": [
+          "Khazad-dum"
+        ],
+        "unitType": [
+          "Hero",
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "heroicActions": [
+          "Heroic March",
+          "Heroic Resolve"
+        ],
+        "options": [],
+        "specialRules": [
+          "Leader (Khazad Guard)"
         ],
         "wargear": [
           "Heavy Dwarf Armour",
@@ -23029,7 +23228,16 @@
       },
       {
         "name": "Dwarven Ballista",
-        "factions": [],
+        "factions": [
+          {
+            "name": "Battle of Eregion",
+            "heroicTier": "Independent Hero"
+          },
+          {
+            "name": "Kingdom of the Ered Luin",
+            "heroicTier": "Independent Hero"
+          }
+        ],
         "includes": [
           {
             "name": "Dwarf Siege Veteran",
@@ -24448,7 +24656,12 @@
       },
       {
         "name": "The Keeper of the Dungeons",
-        "factions": [],
+        "factions": [
+          {
+            "name": "Battle of Moria",
+            "heroicTier": "Hero of Valour"
+          }
+        ],
         "points": 80,
         "movement": 6,
         "fight": 5,
@@ -28354,6 +28567,261 @@
           "Angmar Orc Captain (General)",
           "Gundabad Orc Captain (General)"
         ]
+      },
+      {
+        "name": "Hunter Orc Captain\n(Battle of Moria)",
+        "factions": [
+          {
+            "name": "Battle of Moria",
+            "heroicTier": "Hero of Fortitude"
+          }
+        ],
+        "unlimited": true,
+        "points": 45,
+        "movement": 6,
+        "fight": 4,
+        "shoot": 4,
+        "strength": 4,
+        "defence": 5,
+        "attack": 2,
+        "wounds": 2,
+        "courage": 7,
+        "intelligence": 7,
+        "might": 2,
+        "will": 1,
+        "fate": 1,
+        "race": [
+          "Orc"
+        ],
+        "faction": [
+          "Gundabad"
+        ],
+        "unitType": [
+          "Hero",
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "heroicActions": [
+          "Heroic March"
+        ],
+        "options": [
+          {
+            "name": "Orc Bow",
+            "points": 5
+          },
+          {
+            "name": "Two-handed weapon",
+            "points": 5
+          }
+        ],
+        "specialRules": [
+          "Savage Hunters"
+        ],
+        "wargear": [
+          "Armour",
+          "Hand weapon"
+        ]
+      },
+      {
+        "name": "Grishnakh, Orc Captain\n(Grishnákh's Horde)",
+        "factions": [
+          {
+            "name": "Grishnákh's Horde",
+            "heroicTier": "Hero of Valour"
+          }
+        ],
+        "points": 55,
+        "movement": 6,
+        "fight": 4,
+        "shoot": 5,
+        "strength": 4,
+        "defence": 5,
+        "attack": 2,
+        "wounds": 2,
+        "courage": 7,
+        "intelligence": 5,
+        "might": 3,
+        "will": 3,
+        "fate": 1,
+        "race": [
+          "Orc"
+        ],
+        "faction": [
+          "Mordor"
+        ],
+        "unitType": [
+          "Hero",
+          "Infantry",
+          "Unique"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "heroicActions": [
+          "Heroic Strike"
+        ],
+        "options": [],
+        "specialRules": [
+          "Backstabbers",
+          "Let's put a maggot hole in your belly"
+        ],
+        "wargear": [
+          "Armour",
+          "Hand weapon"
+        ]
+      },
+      {
+        "name": "Snaga, Orc Captain\n(Grishnákh's Horde)",
+        "factions": [
+          {
+            "name": "Grishnákh's Horde",
+            "heroicTier": "Hero of Fortitude"
+          }
+        ],
+        "points": 50,
+        "movement": 6,
+        "fight": 4,
+        "shoot": 4,
+        "strength": 4,
+        "defence": 5,
+        "attack": 2,
+        "wounds": 2,
+        "courage": 7,
+        "intelligence": 6,
+        "might": 2,
+        "will": 2,
+        "fate": 1,
+        "race": [
+          "Orc"
+        ],
+        "faction": [
+          "Mordor"
+        ],
+        "unitType": [
+          "Hero",
+          "Infantry",
+          "Unique"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "heroicActions": [
+          "Heroic Challenge"
+        ],
+        "options": [],
+        "specialRules": [
+          "Cunning Mind"
+        ],
+        "wargear": [
+          "Armour",
+          "Hand weapon"
+        ]
+      },
+      {
+        "name": "Thorin Oakenshield, King Under the Mountain\n(Ride to Ravenhill)",
+        "factions": [
+          {
+            "name": "Ride to Ravenhill",
+            "heroicTier": "Hero of Legend"
+          }
+        ],
+        "points": 150,
+        "movement": 5,
+        "fight": 7,
+        "shoot": 4,
+        "strength": 4,
+        "defence": 8,
+        "attack": 3,
+        "wounds": 3,
+        "courage": 4,
+        "intelligence": 5,
+        "might": 3,
+        "will": 3,
+        "fate": 1,
+        "race": [
+          "Dwarf"
+        ],
+        "faction": [
+          "Erebor"
+        ],
+        "unitType": [
+          "Hero",
+          "Infantry",
+          "Unique"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "heroicActions": [
+          "Heroic Challenge",
+          "Heroic March",
+          "Heroic Strength",
+          "Heroic Strike"
+        ],
+        "options": [],
+        "specialRules": [
+          "Fearless",
+          "Hatred (Gundabad)",
+          "Du Bekar",
+          "Ancestral Fury"
+        ],
+        "wargear": [
+          "Heavy Dwarf Armour",
+          "Hand weapon",
+          "War goat"
+        ]
+      },
+      {
+        "name": "Bofur the Dwarf, Champion of Erebor\n(Ride to Ravenhill)",
+        "factions": [
+          {
+            "name": "Ride to Ravenhill",
+            "heroicTier": "Hero of Fortitude"
+          }
+        ],
+        "points": 165,
+        "movement": 5,
+        "fight": 5,
+        "shoot": 4,
+        "strength": 4,
+        "defence": 8,
+        "attack": 2,
+        "wounds": 2,
+        "courage": 5,
+        "intelligence": 6,
+        "might": 2,
+        "will": 1,
+        "fate": 2,
+        "race": [
+          "Dwarf"
+        ],
+        "faction": [
+          "Erebor"
+        ],
+        "unitType": [
+          "Hero",
+          "Infantry",
+          "Unique"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "heroicActions": [
+          "Heroic Resolve"
+        ],
+        "options": [],
+        "specialRules": [
+          "Sworn Protector (Thorin)",
+          "Steadfast"
+        ],
+        "wargear": [
+          "Heavy Dwarf Armour",
+          "Two-handed weapon",
+          "Throwing weapons",
+          "Troll Brute"
+        ]
       }
     ],
     "warriors": [
@@ -29526,7 +29994,9 @@
       },
       {
         "name": "Orc Tracker",
-        "factions": [],
+        "factions": [
+          "Grishnákh's Horde"
+        ],
         "points": 6,
         "movement": 6,
         "fight": 3,
@@ -34780,6 +35250,16 @@
                 "in": "Aranarth, First Chieftain of the Dunedain"
               },
               {
+                "in": "Remnants of Arnor"
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in": "Aranarth, First Chieftain of the Dunedain"
+              },
+              {
                 "in": "Battle of Fornost"
               }
             ]
@@ -35624,7 +36104,8 @@
       {
         "name": "Mordor Orc Warrior",
         "factions": [
-          "Assault upon Minas Tirith"
+          "Assault upon Minas Tirith",
+          "Grishnákh's Horde"
         ],
         "points": 5,
         "movement": 6,
@@ -36518,7 +36999,8 @@
         "name": "Rivendell Warrior",
         "factions": [
           "King Thengel's Company",
-          "Shadow of Imladris"
+          "Shadow of Imladris",
+          "Battle of Eregion"
         ],
         "points": 9,
         "movement": 6,
@@ -36585,7 +37067,8 @@
         "name": "Rivendell Knight",
         "factions": [
           "King Thengel's Company",
-          "Shadow of Imladris"
+          "Shadow of Imladris",
+          "Battle of Eregion"
         ],
         "points": 20,
         "movement": 6,
@@ -37997,7 +38480,9 @@
       },
       {
         "name": "Hunter Orc Warrior",
-        "factions": [],
+        "factions": [
+          "Battle of Moria"
+        ],
         "points": 8,
         "movement": 6,
         "fight": 3,
@@ -38464,7 +38949,9 @@
         "name": "Dwarf Warrior",
         "factions": [
           "Defenders of Aglarond",
-          "Free People of the East"
+          "Free People of the East",
+          "Battle of Eregion",
+          "Kingdom of the Ered Luin"
         ],
         "points": 8,
         "movement": 5,
@@ -38524,7 +39011,9 @@
       },
       {
         "name": "Khazad Guard",
-        "factions": [],
+        "factions": [
+          "Kingdom of the Ered Luin"
+        ],
         "points": 12,
         "movement": 5,
         "fight": 5,
@@ -38640,7 +39129,8 @@
         "name": "Dwarf Ranger",
         "factions": [
           "Defenders of Aglarond",
-          "Free People of the East"
+          "Free People of the East",
+          "Kingdom of the Ered Luin"
         ],
         "points": 8,
         "movement": 5,
@@ -42195,6 +42685,266 @@
               },
               {
                 "name": "Great Beast of Gorgoroth (General)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Champions of Erebor on Chariot",
+        "factions": [],
+        "points": 0,
+        "movement": 8,
+        "fight": 4,
+        "shoot": 4,
+        "strength": 4,
+        "defence": 8,
+        "attack": 2,
+        "wounds": 5,
+        "courage": 6,
+        "intelligence": 6,
+        "race": [
+          "Dwarf"
+        ],
+        "faction": [
+          "Erebor"
+        ],
+        "unitType": [
+          "Warrior",
+          "Chariot"
+        ],
+        "baseSize": [
+          "170mm oval"
+        ],
+        "unavailableSolo": true,
+        "options": [],
+        "specialRules": [
+          "Dominant (4)",
+          "Chariot Charge (Champions of Erebor)",
+          "Champions of Erebor as Crew"
+        ],
+        "wargear": [
+          "Rapid-fire Bolt Thrower"
+        ]
+      },
+      {
+        "name": "Balin the Dwarf, Champion of Erebor\nwith Champions of Erebor on Chariot",
+        "points": 480,
+        "hideStats": true,
+        "heroicActions": [],
+        "includes": [
+          {
+            "dataSource": "heroes",
+            "name": "Balin the Dwarf, Champion of Erebor"
+          },
+          {
+            "dataSource": "heroes",
+            "name": "Dwalin the Dwarf, Champion of Erebor"
+          },
+          {
+            "dataSource": "heroes",
+            "name": "Kili the Dwarf, Champion of Erebor"
+          },
+          {
+            "dataSource": "heroes",
+            "name": "Fili the Dwarf, Champion of Erebor"
+          },
+          {
+            "dataSource": "warriors",
+            "name": "Champions of Erebor on Chariot"
+          }
+        ],
+        "options": [],
+        "specialRules": [],
+        "decreaseModelCount": 4,
+        "unique": true,
+        "countAsProperty": "heroes",
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Thorin Oakenshield, King Under the Mountain\n(Ride to Ravenhill)"
+              },
+              {
+                "in": "Ride to Ravenhill"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dwalin the Dwarf, Champion of Erebor\n(Ride to Ravenhill)",
+        "points": 130,
+        "movement": 5,
+        "fight": 6,
+        "shoot": 4,
+        "strength": 5,
+        "defence": 8,
+        "attack": 2,
+        "wounds": 2,
+        "courage": 4,
+        "intelligence": 5,
+        "might": 3,
+        "will": 2,
+        "fate": 2,
+        "race": [
+          "Dwarf"
+        ],
+        "faction": [
+          "Erebor"
+        ],
+        "unitType": [
+          "Hero",
+          "Infantry",
+          "Unique"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "heroicActions": [
+          "Heroic Strength",
+          "Heroic Strike"
+        ],
+        "options": [],
+        "specialRules": [
+          "Burly",
+          "Fearless",
+          "Weapon Master",
+          "Sworn Protector (Thorin)",
+          "The King's Axemen"
+        ],
+        "wargear": [
+          "Heavy Dwarf Armour",
+          "Grasper & Keeper",
+          "Two-handed weapon",
+          "War goat"
+        ],
+        "unique": true,
+        "countAsProperty": "heroes",
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Thorin Oakenshield, King Under the Mountain\n(Ride to Ravenhill)"
+              },
+              {
+                "in": "Ride to Ravenhill"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kili the Dwarf, Champion of Erebor\n(Ride to Ravenhill)",
+        "points": 90,
+        "movement": 5,
+        "fight": 5,
+        "shoot": 3,
+        "strength": 4,
+        "defence": 8,
+        "attack": 2,
+        "wounds": 2,
+        "courage": 5,
+        "intelligence": 6,
+        "might": 3,
+        "will": 2,
+        "fate": 1,
+        "race": [
+          "Dwarf"
+        ],
+        "faction": [
+          "Erebor"
+        ],
+        "unitType": [
+          "Hero",
+          "Infantry",
+          "Unique"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "heroicActions": [
+          "Heroic Challenge",
+          "Heroic Strike"
+        ],
+        "options": [],
+        "specialRules": [
+          "Sworn Protector (Thorin)",
+          "Combat Synergy"
+        ],
+        "wargear": [
+          "Heavy Dwarf Armour",
+          "Hand weapon",
+          "War goat"
+        ],
+        "unique": true,
+        "countAsProperty": "heroes",
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Thorin Oakenshield, King Under the Mountain\n(Ride to Ravenhill)"
+              },
+              {
+                "in": "Ride to Ravenhill"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fili the Dwarf, Champion of Erebor\n(Ride to Ravenhill)",
+        "points": 90,
+        "movement": 5,
+        "fight": 5,
+        "shoot": 3,
+        "strength": 4,
+        "defence": 8,
+        "attack": 2,
+        "wounds": 2,
+        "courage": 5,
+        "intelligence": 6,
+        "might": 3,
+        "will": 2,
+        "fate": 1,
+        "race": [
+          "Dwarf"
+        ],
+        "faction": [
+          "Erebor"
+        ],
+        "unitType": [
+          "Hero",
+          "Infantry",
+          "Unique"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "heroicActions": [
+          "Heroic Strength",
+          "Heroic Strike"
+        ],
+        "options": [],
+        "specialRules": [
+          "Sworn Protector (Thorin)",
+          "Combat Synergy"
+        ],
+        "wargear": [
+          "Heavy Dwarf Armour",
+          "Hand weapon",
+          "War goat"
+        ],
+        "unique": true,
+        "countAsProperty": "heroes",
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Thorin Oakenshield, King Under the Mountain\n(Ride to Ravenhill)"
+              },
+              {
+                "in": "Ride to Ravenhill"
               }
             ]
           }
@@ -48165,6 +48915,11 @@
         "definition": "Models with this special rule automatically pass Courage Tests whilst Eärnur is alive and on the battlefield."
       },
       {
+        "name": "Sworn Protector (Galadriel)",
+        "tag": "Passive",
+        "definition": "Models with this special rule automatically pass Courage Tests whilst Galadriel is alive and on the battlefield."
+      },
+      {
         "name": "Headlong into Shadow",
         "definition": "If Oropher begins the Fight Phase outnumbered in combat, he may declare a Heroic Combat without expending a Might Point. If he does so, increase Oropher’s Strength by 1 and reduce his Fight Value and Defence by 1 until the end of the turn. If this Heroic Combat is successful, Oropher must use the resulting Move to Charge an enemy model if he is able to do so.",
         "tag": "Active"
@@ -48188,6 +48943,16 @@
         "name": "A Traitor Within (Gatekeeper of Bree)",
         "tag": "Passive",
         "definition": "The Gatekeeper of **Bree** can be deployed in one of two ways, though his controlling player must decide which before either Army is deployed. The Gatekeeper of **Bree** can either be deployed as part of Sid Briarthorn's Warband (in which case he will not take up a space in the Warband), or as part of the enemy Army.\nIf the Gatekeeper of **Bree** chooses to be deployed as part of the enemy Army, he must select an enemy **Hero**. Once that **Hero** and their Warband has been deployed, the Gatekeeper of **Bree**'s controlling player can deploy the Gatekeeper of **Bree** as if he was also part of that Warband, following all the usual deployment rules. The Gatekeeper of **Bree** is still part of his controlling player's Army, and will Activate like any other model in his controlling player's Army.\nIf the Gatekeeper of **Bree** is deployed as part of the enemy Army, then enemy models treat him as a friendly model, and therefore cannot shoot him, Charge him, make Strikes against him, target him with special rules, or make a Shooting Attack in which the Gatekeeper of **Bree** would be In The Way. They may also ignore his Control Zone. They can, however, target him with Magical Powers like any other enemy model.\nWhilst the Gatekeeper of **Bree** is considered a friendly model, he does not have a Control Zone and may ignore the Control Zones of enemy models and may Move through enemy models as if they weren't there. When the Gatekeeper of **Bree** Moves this way, he cannot end his Move overlapping or in base contact with an enemy model. Additionally, whilst the Gatekeeper of **Bree** is considered a friendly model, enemy models may Move through him in the same manner as described above. The Gatekeeper of **Bree** can choose to Charge an enemy model as normal if he wishes.\nThese restrictions immediately end if Sid Briarthorn suffers an unsaved Wound, if the Gatekeeper of **Bree** Charges an enemy model, if the Gatekeeper of **Bree** destroys an enemy **Siege Engine**, or if the Gatekeeper of **Bree** interacts with an Objective Marker (such as destroying a Supply Marker or picking up an objective), at which point the Gatekeeper of **Bree** is treated as a normal enemy model and can be Charged, shot and slain like any other model. Additionally, the Gatekeeper of **Bree** can never be chosen as a target in Scenarios that require players to select friendly or enemy **Hero** models, such as Fog of War or Assassination."
+      },
+      {
+        "name": "Chariot Charge (Champions of Erebor)",
+        "definition": "When the Champions of Erebor on Chariot Moves via Chariot Charge, it will inflict 3 Strength 6 Impact Hits.",
+        "tag": "Active"
+      },
+      {
+        "name": "Champions of Erebor as Crew",
+        "definition": "Should Balin the Dwarf, Champion of Erebor be slain, another Dwarf on the chariot immediately takes his place as driver. Should all the Dwarves be slain, the chariot is removed as a casualty. If the Chariot is slain, all Dwarves still on the chariot take a Thrown Rider test. The Dwarves riding the Chariot retain their usual wargear and special rules. Dwalin must man the Rapid-fire Bolt Thrower until he is slain. Magical Powers may target the Dwarves individually; they Resist and are affected individually. In Combat, roll each Dwarf's Attacks separately when making the Duel Roll for the purpose of using Might points. Dwarves manning the Rapid-fire Bolt Thrower use their own printed Shoot Value.",
+        "tag": "Passive"
       }
     ],
     "armyBonuses": [
@@ -49826,6 +50591,78 @@
       {
         "name": "\"The combined might of these hosts was terrible to behold.\"",
         "definition": "In Scenarios that use Objective Markers, if both an **Orc** and **Man** model are within range of the same Objective Marker, you count as having one additional model in range of that marker."
+      },
+      {
+        "name": "Old Allies (Battle of Eregion)",
+        "definition": "Dwarf Captains and Dwarf Warriors gain the Dominant (2) special rule. Additionally, friendly **Dwarf** models may re-roll To Wound Rolls of a natural 1 when making Strikes."
+      },
+      {
+        "name": "Herald of the High King (Battle of Eregion)",
+        "definition": "Elrond gains the Master of Battle (3+) special rule. Additionally, other friendly **Elf** models that can draw Line of Sight to Elrond gain a bonus of +1 to any Courage Tests they are required to take."
+      },
+      {
+        "name": "Treasures from times long past",
+        "definition": "At the start of the game, after both sides have deployed, you may place a 40mm Armor Stand Marker and a 40mm Weapon Rack Marker anywhere on the battlefield that is not within the opposition deployment zone. These Markers cannot be set up within 3\" of an Objective Marker, and cannot be set up within 9\" of each other. Friendly **Dwarf** models within 3\" of the Armor Stand ignore Wounds on a 5+. Friendly **Dwarf** models within 3\" of the Weapon Rack gain +1 To Wound when making Strikes."
+      },
+      {
+        "name": "Ancient Will (Ered Luin)",
+        "definition": "Whilst this Army is considered to be Broken, friendly models gain a bonus of +1 to any Courage Tests they are required to take."
+      },
+      {
+        "name": "Wondrous Engines",
+        "definition": "Friendly Dwarven Ballistae improve their Shoot Value to 3+. Additionally, they may re-roll Scatter rolls and failed To Wound rolls when making a Shooting Attack targeting a **Monster** model."
+      },
+      {
+        "name": "Leader of the Khazad Guard",
+        "definition": "If a Dwarf King is your General, they gain the Leader (Khazad Guard) special rule."
+      },
+      {
+        "name": "Savage Onslaught",
+        "definition": "Hunter Orc Captains and Hunter Orc Warriors are always treated as if they had Charged, for the purposes of their Savage Hunters special rule."
+      },
+      {
+        "name": "Fury of the Pale Orc",
+        "definition": "Azog may declare a Heroic Combat each Fight Phase for free. Additionally, in a turn in which Azog Charges, any model on a 25mm base hit by him but not killed is Knocked Prone at the end of the Combat."
+      },
+      {
+        "name": "Occupants of Moria",
+        "definition": "Friendly models gain the Hatred (Dwarf) and Mountain Dweller special rules."
+      },
+      {
+        "name": "Captain of Lugbúrz",
+        "definition": "Grishnákh gains an additional point each of Might and Will. Additionally, Grishnákh may benefit from his \"Let's put a maggot hole in your belly\" special rule even if he is supported by other models and may re-roll the D6 when using this special rule."
+      },
+      {
+        "name": "Second in command",
+        "definition": "Snaga gains an additional point of Will. Additionally, he may re-roll the D6 when using his Cunning Mind special rule. However, he cannot benefit from his Cunning Mind special rule if the Heroic Action was free, without spending a Might Point."
+      },
+      {
+        "name": "Orders from Barad-dûr",
+        "definition": "So long as you have more models on the battlefield than your opponent, friendly models gain a +1 bonus to any Courage Tests they are required to take."
+      },
+      {
+        "name": "Go get em, maggots!",
+        "definition": "Friendly models gain the Backstabbers special rule. Additionally, friendly models Engaged in Combat with an enemy model that would be considered Trapped gain a bonus of +1 to their Fight Value for the duration of the Combat."
+      },
+      {
+        "name": "Sons of Durin",
+        "definition": "Friendly models treat Thorin as a banner with a range of 6\". So long as he is still alive, Thorin counts as a banner for the purpose of Victory Points in Scenarios that award Victory Points for having a banner left alive. Additionally, whilst they have the **Infantry** keyword, Kili and Fili increase their Attacks to 3."
+      },
+      {
+        "name": "Cut the tracers. Ride them to Ravenhill!",
+        "definition": "At the start of the Chariot's activation in the Move Phase, Dwalin, Fili and Kili may each choose to mount up on one of the two goats pulling the chariot; each Dwarf that does so reduces the Chariot's remaining Wounds by 1. A Dwarf may not voluntarily mount up if doing so would reduce the Chariot to 0 Wounds. A newly mounted Dwarf is placed in base contact with the Chariot and may then activate, moving and charging as normal. If Balin becomes the only model remaining on the Chariot, the Chariot may not move for the rest of the game; Balin may then man the Rapid-fire Bolt Thrower and may later dismount, removing the Chariot as a casualty."
+      },
+      {
+        "name": "Fury of the King",
+        "definition": "Thorin may use his Ancestral Fury special rule whilst he has the **Cavalry** keyword."
+      },
+      {
+        "name": "Hang on lads, I'm coming!",
+        "definition": "At the start of the game, after both sides have deployed, you may choose for Bofur to ambush rather than arrive normally. If Bofur is your General he must deploy normally and cannot use this rule. At the end of the Move Phase of the third turn, Bofur and his Warband must either move onto the board from any board edge using the rules for Reinforcements, or deploy in or within 1\" of a suitable piece of terrain that enemy models could not reasonably see into. They may not be placed in base contact with, or within the Control Zones of, enemy models. Models that enter this way count as having Moved half their Move Value for the purpose of Shooting."
+      },
+      {
+        "name": "Aim at his jambags!",
+        "definition": "Whilst riding upon the Chariot, Kili the Dwarf, Champion of Erebor counts as being armed with a Dwarf bow. This is lost if Kili leaves the Chariot for any reason."
       }
     ]
   },
