@@ -48953,6 +48953,16 @@
         "name": "Champions of Erebor as Crew",
         "definition": "Should Balin the Dwarf, Champion of Erebor be slain, another Dwarf on the chariot immediately takes his place as driver. Should all the Dwarves be slain, the chariot is removed as a casualty. If the Chariot is slain, all Dwarves still on the chariot take a Thrown Rider test. The Dwarves riding the Chariot retain their usual wargear and special rules. Dwalin must man the Rapid-fire Bolt Thrower until he is slain. Magical Powers may target the Dwarves individually; they Resist and are affected individually. In Combat, roll each Dwarf's Attacks separately when making the Duel Roll for the purpose of using Might points. Dwarves manning the Rapid-fire Bolt Thrower use their own printed Shoot Value.",
         "tag": "Passive"
+      },
+      {
+        "name": "Darkness-slayer",
+        "definition": "Friendly **Warrior** models within 6” of Alatar may re-roll a single dice in the Duel Roll when fighting models with the **Spirit** keyword. Additionally, when Alatar is revealed from Cunning Ambush, or chooses to Dismount, he gains a free point of Might. If this free Might point is not spent by the end of the turn, it is lost.",
+        "tag": "Passive"
+      },
+      {
+        "name": "East-Helper",
+        "definition": "Friendly **Warrior** models within 6” of Pallando gain +1 to Intelligence Tests. Additionally, when Pallando is revealed from Cunning Ambush, or chooses to Dismount, Pallando and all friendly models within 6” gain +1 Fight Value until the end of the turn.",
+        "tag": "Passive"
       }
     ],
     "armyBonuses": [
