@@ -6,7 +6,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/data2024.update.json",
-    "contentVersion": "2026.09.13.17"
+    "contentVersion": "2026.09.22.1"
   },
   "disallowMultipleFactions": true,
   "colors": {
@@ -2568,7 +2568,7 @@
   "data": {
     "factions": [
       {
-        "name": "Exiles of the Noldor",
+        "name": "Exiles of the Noldor\n(AHCreate90)",
         "alignment": "good",
         "additionalRules": [
           "An Exiles of the **Noldor** Army must always include Gildor Inglorion, who is always the Army's General.",
@@ -2591,7 +2591,7 @@
           }
         ],
         "side": "good",
-        "collection": "Exiles of the Noldor",
+        "collection": "Exiles of the Noldor\n(AHCreate90)",
         "adjustLimits": [
           {
             "type": "throwingWeapon",
@@ -2600,7 +2600,7 @@
         ]
       },
       {
-        "name": "King Thengel's Company",
+        "name": "King Thengel's Company\n(AHCreate90)",
         "alignment": "good",
         "additionalRules": [
           "A King Thengel's Company Army must always include King Thengel, who must be your Army's General.",
@@ -2638,7 +2638,7 @@
         ]
       },
       {
-        "name": "The Eagle and The White Tree",
+        "name": "The Eagle and The White Tree\n(AHCreate90)",
         "alignment": "good",
         "additionalRules": [
           "The **Eagle** and The White Tree Army must always include Ecthelion II, Steward of **Gondor**, who must be your Army's General.",
@@ -2679,7 +2679,7 @@
         ]
       },
       {
-        "name": "Shadow of Imladris",
+        "name": "Shadow of Imladris\n(AHCreate90)",
         "alignment": "good",
         "additionalRules": [
           "A Shadow of Imladris Army must always include Thorongil, who must be your Army's General.",
@@ -2714,7 +2714,7 @@
         ]
       },
       {
-        "name": "Watchers of the Carrock",
+        "name": "Watchers of the Carrock\n(Hyberias)",
         "alignment": "good",
         "collection": "Legends of Middle-earth",
         "additionalRules": [
@@ -2736,7 +2736,7 @@
         ]
       },
       {
-        "name": "Denizens of the Drúadan Forest",
+        "name": "Denizens of the Drúadan Forest\n(Hyberias)",
         "alignment": "good",
         "collection": "Legends of Middle-earth",
         "additionalRules": [
@@ -2759,7 +2759,7 @@
         ]
       },
       {
-        "name": "Helm's Guard",
+        "name": "Helm's Guard\n(Hyberias)",
         "alignment": "good",
         "collection": "Legends of Middle-earth",
         "additionalRules": [
@@ -2788,7 +2788,7 @@
         ]
       },
       {
-        "name": "Defenders of Aglarond",
+        "name": "Defenders of Aglarond\n(Hyberias)",
         "alignment": "good",
         "collection": "Legends of Middle-earth",
         "additionalRules": [
@@ -2834,7 +2834,7 @@
         ]
       },
       {
-        "name": "Host of Eärnur",
+        "name": "Host of Eärnur\n(Hyberias)",
         "alignment": "good",
         "collection": "Legends of Middle-earth",
         "additionalRules": [
@@ -2855,7 +2855,7 @@
         ]
       },
       {
-        "name": "Defenders of Cair Andros",
+        "name": "Defenders of Cair Andros\n(Hyberias)",
         "alignment": "good",
         "collection": "Legends of Middle-earth",
         "additionalRules": [
@@ -2893,7 +2893,7 @@
         ]
       },
       {
-        "name": "Remnants of Arnor",
+        "name": "Remnants of Arnor\n(Hyberias)",
         "alignment": "good",
         "collection": "Legends of Middle-earth",
         "additionalRules": [
@@ -2914,7 +2914,7 @@
         ]
       },
       {
-        "name": "The Dead of Dunharrow",
+        "name": "The Dead of Dunharrow\n(Hyberias)",
         "alignment": "good",
         "collection": "Legends of Middle-earth",
         "additionalRules": [
@@ -2935,7 +2935,7 @@
         ]
       },
       {
-        "name": "Army of Eryn Lasgalen",
+        "name": "Army of Eryn Lasgalen\n(Hyberias)",
         "alignment": "good",
         "collection": "Legends of Middle-earth",
         "additionalRules": [
@@ -2964,7 +2964,7 @@
         ]
       },
       {
-        "name": "Waywardens of Eriador",
+        "name": "Waywardens of Eriador\n(Hyberias)",
         "alignment": "good",
         "collection": "Legends of Middle-earth",
         "additionalRules": [
@@ -2986,7 +2986,7 @@
         ]
       },
       {
-        "name": "Brigands of Breeland",
+        "name": "Brigands of Breeland\n(Hyberias)",
         "alignment": "evil",
         "collection": "Legends of Middle-earth",
         "additionalRules": [
@@ -3012,7 +3012,7 @@
         ]
       },
       {
-        "name": "Assault upon Minas Tirith",
+        "name": "Assault upon Minas Tirith\n(Hyberias)",
         "alignment": "evil",
         "collection": "Legends of Middle-earth",
         "additionalRules": [
@@ -3033,7 +3033,7 @@
         ]
       },
       {
-        "name": "Raiders from the Ered Nimras",
+        "name": "Raiders from the Ered Nimras\n(Hyberias)",
         "alignment": "evil",
         "collection": "Legends of Middle-earth",
         "additionalRules": [
@@ -3055,7 +3055,7 @@
         ]
       },
       {
-        "name": "Dread from the Barrow-downs",
+        "name": "Dread from the Barrow-downs\n(Hyberias)",
         "alignment": "evil",
         "collection": "Legends of Middle-earth",
         "additionalRules": [
@@ -3069,7 +3069,7 @@
         ]
       },
       {
-        "name": "Terrors of Fornost",
+        "name": "Terrors of Fornost\n(Hyberias)",
         "alignment": "evil",
         "collection": "Legends of Middle-earth",
         "additionalRules": [
@@ -3090,7 +3090,7 @@
         ]
       },
       {
-        "name": "Host of the Black Easterling",
+        "name": "Host of the Black Easterling\n(Hyberias)",
         "alignment": "evil",
         "collection": "Legends of Middle-earth",
         "additionalRules": [
@@ -3111,7 +3111,7 @@
         ]
       },
       {
-        "name": "The Dragon Legion",
+        "name": "The Dragon Legion\n(Hyberias)",
         "alignment": "evil",
         "collection": "Legends of Middle-earth",
         "additionalRules": [
@@ -3131,7 +3131,7 @@
         ]
       },
       {
-        "name": "The Wainriders",
+        "name": "The Wainriders\n(Hyberias)",
         "alignment": "evil",
         "collection": "Legends of Middle-earth",
         "additionalRules": [
@@ -3187,7 +3187,7 @@
         ]
       },
       {
-        "name": "Host of the Golden King",
+        "name": "Host of the Golden King\n(Hyberias)",
         "alignment": "evil",
         "collection": "Legends of Middle-earth",
         "additionalRules": [
@@ -3215,7 +3215,7 @@
         ]
       },
       {
-        "name": "Tyranny from the Southlands",
+        "name": "Tyranny from the Southlands\n(Hyberias)",
         "alignment": "evil",
         "collection": "Legends of Middle-earth",
         "additionalRules": [
@@ -3237,7 +3237,7 @@
         ]
       },
       {
-        "name": "Council of the Istari",
+        "name": "Council of the Istari\n(AHCreate90)",
         "alignment": "good",
         "side": "good",
         "collection": "Blue Wizards",
@@ -3261,7 +3261,7 @@
         ]
       },
       {
-        "name": "Free People of the East",
+        "name": "Free People of the East\n(AHCreate90)",
         "alignment": "good",
         "side": "good",
         "collection": "Blue Wizards",
@@ -3299,7 +3299,7 @@
         ]
       },
       {
-        "name": "Fall of Dol Guldur",
+        "name": "Fall of Dol Guldur\n(AHCreate90)",
         "alignment": "good",
         "additionalRules": [
           "A Fall of **Dol Guldur** Army must include Celeborn, The Silver Lord, who is always the Army's General.",
@@ -3335,7 +3335,7 @@
         "collection": "Expansion of Middle-earth"
       },
       {
-        "name": "Ash and Ivory",
+        "name": "Ash and Ivory\n(AHCreate90)",
         "alignment": "evil",
         "additionalRules": [
           "An Ash and Ivory Army must include at least one **Great Beast** of Gorgoroth. Choose one Commander of a **Great Beast** of Gorgoroth to become your Army's General.",
@@ -3360,7 +3360,7 @@
         "collection": "Expansion of Middle-earth"
       },
       {
-        "name": "Host from the North",
+        "name": "Host from the North\n(AHCreate90)",
         "alignment": "evil",
         "additionalRules": [
           "A Host from the North Army must always include at least one Captain model.",
@@ -3384,7 +3384,7 @@
         "collection": "Expansion of Middle-earth"
       },
       {
-        "name": "Battle of Eregion",
+        "name": "Battle of Eregion\n(Hyberias)",
         "alignment": "good",
         "collection": "Legends of Middle-earth",
         "additionalRules": [
@@ -3406,7 +3406,7 @@
         ]
       },
       {
-        "name": "Kingdom of the Ered Luin",
+        "name": "Kingdom of the Ered Luin\n(Hyberias)",
         "alignment": "good",
         "collection": "Legends of Middle-earth",
         "additionalRules": [
@@ -3419,7 +3419,7 @@
         ]
       },
       {
-        "name": "Battle of Moria",
+        "name": "Battle of Moria\n(Hyberias)",
         "alignment": "evil",
         "collection": "Legends of Middle-earth",
         "additionalRules": [
@@ -3441,7 +3441,7 @@
         ]
       },
       {
-        "name": "Grishnákh's Horde",
+        "name": "Grishnákh's Horde\n(Hyberias)",
         "alignment": "evil",
         "collection": "Legends of Middle-earth",
         "additionalRules": [
@@ -3464,7 +3464,7 @@
         ]
       },
       {
-        "name": "Ride to Ravenhill",
+        "name": "Ride to Ravenhill\n(Wardens)",
         "alignment": "good",
         "collection": "Wardens Supplement",
         "additionalRules": [
@@ -3484,6 +3484,66 @@
             "points": 150,
             "elementPropertyName": "heroes",
             "mustBeLeader": true
+          }
+        ]
+      },
+      {
+        "name": "Wraiths Upon the Road\n(AHCreate90)",
+        "alignment": "evil",
+        "side": "evil",
+        "collection": "Legends of Middle-earth",
+        "additionalRules": [
+          "A Wraiths Upon the Road Army must include at least one Twilight Ringwraith, who is your Army's General."
+        ],
+        "armyBonuses": [
+          "The Witch-King Uncloaked",
+          "Servants, Spies and Brigands",
+          "Dread of the Unseen"
+        ],
+        "requiredChildren": [
+          {
+            "name": "Twilight Ringwraith",
+            "points": 70,
+            "elementPropertyName": "heroes",
+            "mustBeLeader": true
+          }
+        ]
+      },
+      {
+        "name": "Shadows in the Barrows\n(AHCreate90)",
+        "alignment": "evil",
+        "side": "evil",
+        "collection": "Legends of Middle-earth",
+        "additionalRules": [
+          "A Shadows in the Barrows Army must include at least one Twilight Ringwraith, who is your Army's General.",
+          "**Spirit** **Warrior** models can only be included in the Warband of a **Spirit** **Hero**.",
+          "**Warg** **Warrior** models can only be included in the Warband of a **Warg** **Hero**."
+        ],
+        "armyBonuses": [
+          "The Twilight King",
+          "Breath of the Barrows",
+          "Gift of the Unseen"
+        ],
+        "requiredChildren": [
+          {
+            "name": "Twilight Ringwraith",
+            "points": 70,
+            "elementPropertyName": "heroes",
+            "mustBeLeader": true
+          }
+        ],
+        "childMatchesRequired": [
+          {
+            "elementPropertyName": "heroes",
+            "matchPropertyName": "race",
+            "value": "Spirit",
+            "childElementPropertyName": "warriors"
+          },
+          {
+            "elementPropertyName": "heroes",
+            "matchPropertyName": "race",
+            "value": "Warg",
+            "childElementPropertyName": "warriors"
           }
         ]
       }
@@ -3730,7 +3790,7 @@
         "name": "Khandish Chieftain",
         "factions": [
           {
-            "name": "The Wainriders",
+            "name": "The Wainriders\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -3989,7 +4049,7 @@
         "name": "The Golden King of Abrakhan",
         "factions": [
           {
-            "name": "Host of the Golden King",
+            "name": "Host of the Golden King\n(Hyberias)",
             "heroicTier": "Hero of Legend"
           }
         ],
@@ -4604,7 +4664,7 @@
         "name": "Great Beast of Gorgoroth",
         "factions": [
           {
-            "name": "Ash and Ivory",
+            "name": "Ash and Ivory\n(AHCreate90)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -4889,7 +4949,7 @@
         "name": "Zagdush, Orc Captain",
         "factions": [
           {
-            "name": "Assault upon Minas Tirith",
+            "name": "Assault upon Minas Tirith\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -4937,7 +4997,7 @@
         "name": "Goroth, Captain of the Morannon",
         "factions": [
           {
-            "name": "Assault upon Minas Tirith",
+            "name": "Assault upon Minas Tirith\n(Hyberias)",
             "heroicTier": "Hero of Valour"
           }
         ],
@@ -5078,7 +5138,7 @@
             "points": 0,
             "in": [
               [
-                "Tyranny from the Southlands"
+                "Tyranny from the Southlands\n(Hyberias)"
               ]
             ]
           }
@@ -5517,7 +5577,7 @@
             "points": 0,
             "in": [
               [
-                "Dread from the Barrow-downs"
+                "Dread from the Barrow-downs\n(Hyberias)"
               ]
             ]
           },
@@ -5527,7 +5587,7 @@
             "points": 0,
             "in": [
               [
-                "Dread from the Barrow-downs"
+                "Dread from the Barrow-downs\n(Hyberias)"
               ]
             ]
           }
@@ -5632,7 +5692,7 @@
             "points": 0,
             "in": [
               [
-                "Dread from the Barrow-downs"
+                "Dread from the Barrow-downs\n(Hyberias)"
               ]
             ]
           },
@@ -5642,7 +5702,7 @@
             "points": 0,
             "in": [
               [
-                "Dread from the Barrow-downs"
+                "Dread from the Barrow-downs\n(Hyberias)"
               ]
             ]
           }
@@ -5652,7 +5712,7 @@
         "name": "Khamûl the Easterling",
         "factions": [
           {
-            "name": "Host of the Black Easterling",
+            "name": "Host of the Black Easterling\n(Hyberias)",
             "heroicTier": "Hero of Legend"
           }
         ],
@@ -5832,11 +5892,11 @@
         "name": "Dwarf Shieldbearer",
         "factions": [
           {
-            "name": "Defenders of Aglarond",
+            "name": "Defenders of Aglarond\n(Hyberias)",
             "heroicTier": "Minor Hero"
           },
           {
-            "name": "Kingdom of the Ered Luin",
+            "name": "Kingdom of the Ered Luin\n(Hyberias)",
             "heroicTier": "Minor Hero"
           }
         ],
@@ -5971,7 +6031,7 @@
         "name": "King's Champion Group",
         "factions": [
           {
-            "name": "Kingdom of the Ered Luin",
+            "name": "Kingdom of the Ered Luin\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -6211,7 +6271,7 @@
         "name": "Erestor",
         "factions": [
           {
-            "name": "Exiles of the Noldor",
+            "name": "Exiles of the Noldor\n(AHCreate90)",
             "heroicTier": "Hero of Valour"
           }
         ],
@@ -6260,7 +6320,7 @@
         "name": "Gildor Inglorion",
         "factions": [
           {
-            "name": "Exiles of the Noldor",
+            "name": "Exiles of the Noldor\n(AHCreate90)",
             "heroicTier": "Hero of Valour"
           }
         ],
@@ -6296,14 +6356,14 @@
             "name": "Of the House of Finrod (Waywardens)",
             "points": 0,
             "availableIn": [
-              "Waywardens of Eriador"
+              "Waywardens of Eriador\n(Hyberias)"
             ]
           },
           {
             "name": "Lamp of Balar",
             "points": 0,
             "availableIn": [
-              "Waywardens of Eriador"
+              "Waywardens of Eriador\n(Hyberias)"
             ]
           }
         ],
@@ -6340,7 +6400,7 @@
             "points": 0,
             "in": [
               [
-                "Waywardens of Eriador"
+                "Waywardens of Eriador\n(Hyberias)"
               ]
             ]
           },
@@ -6350,7 +6410,7 @@
             "points": 0,
             "in": [
               [
-                "Waywardens of Eriador"
+                "Waywardens of Eriador\n(Hyberias)"
               ]
             ]
           }
@@ -6412,7 +6472,7 @@
         "name": "Erkenbrand, Captain of Rohan",
         "factions": [
           {
-            "name": "Defenders of Aglarond",
+            "name": "Defenders of Aglarond\n(Hyberias)",
             "heroicTier": "Hero of Valour"
           }
         ],
@@ -6465,7 +6525,7 @@
         "name": "King's Huntsman",
         "factions": [
           {
-            "name": "Defenders of Aglarond",
+            "name": "Defenders of Aglarond\n(Hyberias)",
             "heroicTier": "Minor Hero"
           }
         ],
@@ -6600,7 +6660,7 @@
         "name": "Mablung, Ranger of Ithilien",
         "factions": [
           {
-            "name": "Defenders of Cair Andros",
+            "name": "Defenders of Cair Andros\n(Hyberias)",
             "heroicTier": "Minor Hero"
           }
         ],
@@ -6650,7 +6710,7 @@
         "name": "Anborn, Ranger of Ithilien",
         "factions": [
           {
-            "name": "Defenders of Cair Andros",
+            "name": "Defenders of Cair Andros\n(Hyberias)",
             "heroicTier": "Minor Hero"
           }
         ],
@@ -6751,7 +6811,7 @@
             "points": 0,
             "in": [
               [
-                "Host of Eärnur"
+                "Host of Eärnur\n(Hyberias)"
               ]
             ]
           }
@@ -6830,7 +6890,7 @@
             "points": 0,
             "in": [
               [
-                "Tyranny from the Southlands"
+                "Tyranny from the Southlands\n(Hyberias)"
               ]
             ]
           }
@@ -6917,7 +6977,7 @@
             "points": 0,
             "in": [
               [
-                "Raiders from the Ered Nimras"
+                "Raiders from the Ered Nimras\n(Hyberias)"
               ]
             ]
           }
@@ -7066,7 +7126,7 @@
         "name": "Haradrim Taskmaster",
         "factions": [
           {
-            "name": "Host of the Golden King",
+            "name": "Host of the Golden King\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -7199,7 +7259,7 @@
         "name": "Bill Ferny",
         "factions": [
           {
-            "name": "Brigands of Breeland",
+            "name": "Brigands of Breeland\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -7248,7 +7308,7 @@
         "name": "Sid Briarthorn",
         "factions": [
           {
-            "name": "Brigands of Breeland",
+            "name": "Brigands of Breeland\n(Hyberias)",
             "heroicTier": "Hero of Valour"
           }
         ],
@@ -7298,7 +7358,7 @@
         "name": "Rowan Thistlewood",
         "factions": [
           {
-            "name": "Brigands of Breeland",
+            "name": "Brigands of Breeland\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -8780,7 +8840,7 @@
         "name": "Ghan-buri-Ghan",
         "factions": [
           {
-            "name": "Denizens of the Drúadan Forest",
+            "name": "Denizens of the Drúadan Forest\n(Hyberias)",
             "heroicTier": "Hero of Valour"
           }
         ],
@@ -8834,7 +8894,7 @@
             "name": "Assault at Night",
             "points": 100,
             "availableIn": [
-              "Denizens of the Drúadan Forest"
+              "Denizens of the Drúadan Forest\n(Hyberias)"
             ],
             "usesDefinition": "Assault at Night"
           },
@@ -8842,7 +8902,7 @@
             "name": "Defenders of the Woods",
             "points": 100,
             "availableIn": [
-              "Denizens of the Drúadan Forest"
+              "Denizens of the Drúadan Forest\n(Hyberias)"
             ],
             "usesDefinition": "Defenders of the Woods"
           },
@@ -8850,7 +8910,7 @@
             "name": "Ghosts of the Woods",
             "points": 100,
             "availableIn": [
-              "Denizens of the Drúadan Forest"
+              "Denizens of the Drúadan Forest\n(Hyberias)"
             ],
             "usesDefinition": "Ghosts of the Woods"
           },
@@ -8858,7 +8918,7 @@
             "name": "Guidance of the Chief",
             "points": 100,
             "availableIn": [
-              "Denizens of the Drúadan Forest"
+              "Denizens of the Drúadan Forest\n(Hyberias)"
             ],
             "usesDefinition": "Guidance of the Chief"
           },
@@ -8866,7 +8926,7 @@
             "name": "Traps of the Drúadan",
             "points": 100,
             "availableIn": [
-              "Denizens of the Drúadan Forest"
+              "Denizens of the Drúadan Forest\n(Hyberias)"
             ],
             "usesDefinition": "Traps of the Drúadan"
           },
@@ -8874,7 +8934,7 @@
             "name": "The Faithful Stone",
             "points": 100,
             "availableIn": [
-              "Denizens of the Drúadan Forest"
+              "Denizens of the Drúadan Forest\n(Hyberias)"
             ],
             "usesDefinition": "The Faithful Stone"
           }
@@ -9127,7 +9187,7 @@
         "name": "Hasharin",
         "factions": [
           {
-            "name": "Host of the Golden King",
+            "name": "Host of the Golden King\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -9182,11 +9242,11 @@
         "points": 160,
         "factions": [
           {
-            "name": "King Thengel's Company",
+            "name": "King Thengel's Company\n(AHCreate90)",
             "heroicTier": "Hero of Valour"
           },
           {
-            "name": "Shadow of Imladris",
+            "name": "Shadow of Imladris\n(AHCreate90)",
             "heroicTier": "Hero of Valour"
           }
         ],
@@ -9227,16 +9287,16 @@
             "points": 40,
             "availableIn": [
               "Rivendell",
-              "King Thengel's Company",
-              "The Eagle and The White Tree",
-              "Shadow of Imladris"
+              "King Thengel's Company\n(AHCreate90)",
+              "The Eagle and The White Tree\n(AHCreate90)",
+              "Shadow of Imladris\n(AHCreate90)"
             ]
           },
           {
             "name": "The Sons of Peredhel (Waywardens)",
             "points": 0,
             "availableIn": [
-              "Waywardens of Eriador"
+              "Waywardens of Eriador\n(Hyberias)"
             ]
           }
         ],
@@ -9257,7 +9317,7 @@
             "points": 0,
             "in": [
               [
-                "Waywardens of Eriador"
+                "Waywardens of Eriador\n(Hyberias)"
               ]
             ]
           }
@@ -9267,11 +9327,11 @@
         "name": "Elrohir",
         "factions": [
           {
-            "name": "King Thengel's Company",
+            "name": "King Thengel's Company\n(AHCreate90)",
             "heroicTier": "Hero of Valour"
           },
           {
-            "name": "Shadow of Imladris",
+            "name": "Shadow of Imladris\n(AHCreate90)",
             "heroicTier": "Hero of Valour"
           }
         ],
@@ -9312,7 +9372,7 @@
             "name": "The Sons of Peredhel (Waywardens)",
             "points": 0,
             "availableIn": [
-              "Waywardens of Eriador"
+              "Waywardens of Eriador\n(Hyberias)"
             ]
           }
         ],
@@ -9333,7 +9393,7 @@
             "points": 0,
             "in": [
               [
-                "Waywardens of Eriador"
+                "Waywardens of Eriador\n(Hyberias)"
               ]
             ]
           }
@@ -9539,19 +9599,19 @@
         "name": "Dwarf Captain",
         "factions": [
           {
-            "name": "Defenders of Aglarond",
+            "name": "Defenders of Aglarond\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           },
           {
-            "name": "Free People of the East",
+            "name": "Free People of the East\n(AHCreate90)",
             "heroicTier": "Hero of Fortitude"
           },
           {
-            "name": "Battle of Eregion",
+            "name": "Battle of Eregion\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           },
           {
-            "name": "Kingdom of the Ered Luin",
+            "name": "Kingdom of the Ered Luin\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -9646,15 +9706,15 @@
         "name": "Easterling War Priest",
         "factions": [
           {
-            "name": "Host of the Black Easterling",
+            "name": "Host of the Black Easterling\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           },
           {
-            "name": "The Dragon Legion",
+            "name": "The Dragon Legion\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           },
           {
-            "name": "The Wainriders",
+            "name": "The Wainriders\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -9827,7 +9887,7 @@
         "name": "Brorgir the Conjurer",
         "factions": [
           {
-            "name": "The Dragon Legion",
+            "name": "The Dragon Legion\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -9896,7 +9956,7 @@
         "name": "Rutabi, General of the Dragon Legion",
         "factions": [
           {
-            "name": "The Dragon Legion",
+            "name": "The Dragon Legion\n(Hyberias)",
             "heroicTier": "Hero of Valour"
           }
         ],
@@ -10001,15 +10061,15 @@
         "name": "Easterling Kataphrakt Captain",
         "factions": [
           {
-            "name": "Host of the Black Easterling",
+            "name": "Host of the Black Easterling\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           },
           {
-            "name": "The Dragon Legion",
+            "name": "The Dragon Legion\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           },
           {
-            "name": "The Wainriders",
+            "name": "The Wainriders\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -10365,7 +10425,12 @@
       },
       {
         "name": "Wild Warg Chieftain",
-        "factions": [],
+        "factions": [
+          {
+            "name": "Shadows in the Barrows\n(AHCreate90)",
+            "heroicTier": "Hero of Fortitude"
+          }
+        ],
         "unlimited": true,
         "points": 80,
         "movement": 10,
@@ -10422,7 +10487,7 @@
             "points": 0,
             "in": [
               [
-                "Terrors of Fornost"
+                "Terrors of Fornost\n(Hyberias)"
               ]
             ]
           },
@@ -10432,7 +10497,7 @@
             "points": 0,
             "in": [
               [
-                "Raiders from the Ered Nimras"
+                "Raiders from the Ered Nimras\n(Hyberias)"
               ]
             ]
           }
@@ -10442,7 +10507,7 @@
         "name": "Captain of Carn Dum",
         "factions": [
           {
-            "name": "Host from the North",
+            "name": "Host from the North\n(AHCreate90)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -10584,7 +10649,7 @@
         "name": "Angmar Orc Shaman",
         "factions": [
           {
-            "name": "Host from the North",
+            "name": "Host from the North\n(AHCreate90)",
             "heroicTier": "Minor Hero"
           }
         ],
@@ -10633,7 +10698,7 @@
             "name": "Warg",
             "points": 20,
             "availableIn": [
-              "Host from the North"
+              "Host from the North\n(AHCreate90)"
             ]
           }
         ],
@@ -10659,7 +10724,7 @@
         "name": "Angmar Orc Captain",
         "factions": [
           {
-            "name": "Host from the North",
+            "name": "Host from the North\n(AHCreate90)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -10706,7 +10771,11 @@
         "name": "Barrow-wight",
         "factions": [
           {
-            "name": "Host from the North",
+            "name": "Host from the North\n(AHCreate90)",
+            "heroicTier": "Minor Hero"
+          },
+          {
+            "name": "Shadows in the Barrows\n(AHCreate90)",
             "heroicTier": "Minor Hero"
           }
         ],
@@ -10767,7 +10836,7 @@
             "points": 0,
             "in": [
               [
-                "Dread from the Barrow-downs"
+                "Dread from the Barrow-downs\n(Hyberias)"
               ]
             ]
           }
@@ -10776,7 +10845,7 @@
           {
             "all": [
               {
-                "in": "Host from the North"
+                "in": "Host from the North\n(AHCreate90)"
               },
               {
                 "in": "Angmar Orc Captain (General)"
@@ -10791,7 +10860,12 @@
       },
       {
         "name": "Shade",
-        "factions": [],
+        "factions": [
+          {
+            "name": "Shadows in the Barrows\n(AHCreate90)",
+            "heroicTier": "Hero of Fortitude"
+          }
+        ],
         "unlimited": true,
         "points": 75,
         "movement": 6,
@@ -10845,7 +10919,7 @@
             "points": 0,
             "in": [
               [
-                "Dread from the Barrow-downs"
+                "Dread from the Barrow-downs\n(Hyberias)"
               ]
             ]
           }
@@ -10904,7 +10978,7 @@
             "points": 0,
             "in": [
               [
-                "Terrors of Fornost"
+                "Terrors of Fornost\n(Hyberias)"
               ]
             ]
           }
@@ -11023,7 +11097,7 @@
             "points": 0,
             "in": [
               [
-                "Terrors of Fornost"
+                "Terrors of Fornost\n(Hyberias)"
               ]
             ]
           }
@@ -11033,7 +11107,7 @@
         "name": "Ranger of the North",
         "factions": [
           {
-            "name": "Remnants of Arnor",
+            "name": "Remnants of Arnor\n(Hyberias)",
             "heroicTier": "Independent Hero"
           }
         ],
@@ -11095,7 +11169,7 @@
             "points": 0,
             "in": [
               [
-                "Remnants of Arnor"
+                "Remnants of Arnor\n(Hyberias)"
               ]
             ]
           },
@@ -11105,7 +11179,7 @@
             "points": 0,
             "in": [
               [
-                "Remnants of Arnor"
+                "Remnants of Arnor\n(Hyberias)"
               ]
             ]
           }
@@ -11271,7 +11345,7 @@
             "points": 0,
             "in": [
               [
-                "Host of Eärnur"
+                "Host of Eärnur\n(Hyberias)"
               ]
             ]
           }
@@ -11391,7 +11465,7 @@
         "name": "Aranarth, First Chieftain of the Dunedain",
         "factions": [
           {
-            "name": "Remnants of Arnor",
+            "name": "Remnants of Arnor\n(Hyberias)",
             "heroicTier": "Hero of Valour"
           }
         ],
@@ -11431,7 +11505,7 @@
           "Expert Shot",
           "Hatred (Angmar)",
           "Sharpshooter",
-          "Remnants of Arnor"
+          "Remnants of Arnor\n(Hyberias)"
         ],
         "wargear": [
           "Armour",
@@ -12108,7 +12182,7 @@
             "points": 0,
             "in": [
               [
-                "Raiders from the Ered Nimras"
+                "Raiders from the Ered Nimras\n(Hyberias)"
               ]
             ]
           }
@@ -12910,11 +12984,11 @@
         "name": "Captain of Rohan",
         "factions": [
           {
-            "name": "King Thengel's Company",
+            "name": "King Thengel's Company\n(AHCreate90)",
             "heroicTier": "Hero of Fortitude"
           },
           {
-            "name": "Defenders of Aglarond",
+            "name": "Defenders of Aglarond\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -12991,15 +13065,15 @@
               "Riders of Theoden",
               "Riders of Eomer",
               "Theodred's Guard",
-              "Helm's Guard",
+              "Helm's Guard\n(Hyberias)",
               "Defenders of the Pelennor",
               "Realms of Men",
               "The Grief of Eomer",
               "Fords of Isen",
               "Paths of the Druadan",
               "Fields of Celebrant",
-              "King Thengel's Company",
-              "Defenders of Aglarond"
+              "King Thengel's Company\n(AHCreate90)",
+              "Defenders of Aglarond\n(Hyberias)"
             ]
           },
           {
@@ -13026,9 +13100,9 @@
               "Fords of Isen",
               "Paths of the Druadan",
               "Fields of Celebrant",
-              "King Thengel's Company",
-              "Helm's Guard",
-              "Defenders of Aglarond"
+              "King Thengel's Company\n(AHCreate90)",
+              "Helm's Guard\n(Hyberias)",
+              "Defenders of Aglarond\n(Hyberias)"
             ]
           }
         ],
@@ -13835,7 +13909,7 @@
         "name": "Morannon Orc Captain",
         "factions": [
           {
-            "name": "Assault upon Minas Tirith",
+            "name": "Assault upon Minas Tirith\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -14454,11 +14528,15 @@
         "name": "Mordor Orc Captain",
         "factions": [
           {
-            "name": "Assault upon Minas Tirith",
+            "name": "Assault upon Minas Tirith\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           },
           {
-            "name": "Grishnákh's Horde",
+            "name": "Grishnákh's Horde\n(Hyberias)",
+            "heroicTier": "Hero of Fortitude"
+          },
+          {
+            "name": "Wraiths Upon the Road\n(AHCreate90)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -14506,7 +14584,7 @@
             "points": 0,
             "in": [
               [
-                "Raiders from the Ered Nimras"
+                "Raiders from the Ered Nimras\n(Hyberias)"
               ]
             ]
           }
@@ -14716,7 +14794,7 @@
         "name": "Mordor Orc Drummer",
         "factions": [
           {
-            "name": "Grishnákh's Horde",
+            "name": "Grishnákh's Horde\n(Hyberias)",
             "heroicTier": "Independent Hero"
           }
         ],
@@ -14893,7 +14971,7 @@
         "name": "Elrond, Master of Rivendell",
         "factions": [
           {
-            "name": "Battle of Eregion",
+            "name": "Battle of Eregion\n(Hyberias)",
             "heroicTier": "Hero of Legend"
           }
         ],
@@ -14935,7 +15013,7 @@
               "Rivendell",
               "Lindon",
               "The Last Alliance",
-              "Battle of Eregion"
+              "Battle of Eregion\n(Hyberias)"
             ]
           }
         ],
@@ -14967,7 +15045,7 @@
         "name": "Arwen Undomiel",
         "factions": [
           {
-            "name": "Shadow of Imladris",
+            "name": "Shadow of Imladris\n(AHCreate90)",
             "heroicTier": "Hero of Valour"
           }
         ],
@@ -15278,11 +15356,11 @@
         "name": "Rivendell Captain",
         "factions": [
           {
-            "name": "Shadow of Imladris",
+            "name": "Shadow of Imladris\n(AHCreate90)",
             "heroicTier": "Hero of Fortitude"
           },
           {
-            "name": "Battle of Eregion",
+            "name": "Battle of Eregion\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -15332,8 +15410,8 @@
               "Rivendell",
               "Lindon",
               "The Last Alliance",
-              "Shadow of Imladris",
-              "Battle of Eregion"
+              "Shadow of Imladris\n(AHCreate90)",
+              "Battle of Eregion\n(Hyberias)"
             ]
           },
           {
@@ -15923,7 +16001,7 @@
         "name": "Saruman the White",
         "factions": [
           {
-            "name": "Council of the Istari",
+            "name": "Council of the Istari\n(AHCreate90)",
             "heroicTier": "Hero of Legend"
           }
         ],
@@ -16585,7 +16663,7 @@
         "name": "The King of the Dead",
         "factions": [
           {
-            "name": "The Dead of Dunharrow",
+            "name": "The Dead of Dunharrow\n(Hyberias)",
             "heroicTier": "Hero of Valour"
           }
         ],
@@ -16638,7 +16716,7 @@
         "name": "Herald of the Dead",
         "factions": [
           {
-            "name": "The Dead of Dunharrow",
+            "name": "The Dead of Dunharrow\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -16753,7 +16831,7 @@
             "points": 0,
             "in": [
               [
-                "Defenders of Aglarond"
+                "Defenders of Aglarond\n(Hyberias)"
               ]
             ]
           }
@@ -17489,7 +17567,7 @@
         "name": "The Gatekeeper of Bree",
         "factions": [
           {
-            "name": "Brigands of Breeland",
+            "name": "Brigands of Breeland\n(Hyberias)",
             "heroicTier": "Independent Hero"
           }
         ],
@@ -17579,7 +17657,7 @@
         "name": "Gandalf the Grey",
         "factions": [
           {
-            "name": "Council of the Istari",
+            "name": "Council of the Istari\n(AHCreate90)",
             "heroicTier": "Hero of Valour"
           }
         ],
@@ -18085,7 +18163,7 @@
         "name": "Azog, the Defiler",
         "factions": [
           {
-            "name": "Battle of Moria",
+            "name": "Battle of Moria\n(Hyberias)",
             "heroicTier": "Hero of Legend"
           }
         ],
@@ -18534,11 +18612,11 @@
         "name": "Galadhrim Captain",
         "factions": [
           {
-            "name": "Army of Eryn Lasgalen",
+            "name": "Army of Eryn Lasgalen\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           },
           {
-            "name": "Fall of Dol Guldur",
+            "name": "Fall of Dol Guldur\n(AHCreate90)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -18585,7 +18663,7 @@
             "name": "Elf Bow",
             "points": 5,
             "availableIn": [
-              "Fall of Dol Guldur"
+              "Fall of Dol Guldur\n(AHCreate90)"
             ]
           }
         ]
@@ -18594,7 +18672,7 @@
         "name": "Lothlorien Captain",
         "factions": [
           {
-            "name": "Waywardens of Eriador",
+            "name": "Waywardens of Eriador\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -18955,7 +19033,7 @@
         "name": "Dwarf King",
         "factions": [
           {
-            "name": "Free People of the East",
+            "name": "Free People of the East\n(AHCreate90)",
             "heroicTier": "Hero of Valour"
           }
         ],
@@ -19028,7 +19106,7 @@
         "name": "Dwarf King\n(Kingdom of the Ered Luin)",
         "factions": [
           {
-            "name": "Kingdom of the Ered Luin",
+            "name": "Kingdom of the Ered Luin\n(Hyberias)",
             "heroicTier": "Hero of Valour"
           }
         ],
@@ -19598,15 +19676,15 @@
         "name": "Easterling Captain",
         "factions": [
           {
-            "name": "Host of the Black Easterling",
+            "name": "Host of the Black Easterling\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           },
           {
-            "name": "The Dragon Legion",
+            "name": "The Dragon Legion\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           },
           {
-            "name": "The Wainriders",
+            "name": "The Wainriders\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -19653,7 +19731,7 @@
         "name": "Gundabad Orc Captain",
         "factions": [
           {
-            "name": "Host from the North",
+            "name": "Host from the North\n(AHCreate90)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -19703,7 +19781,7 @@
         "name": "Goblin Mercenary Captain",
         "factions": [
           {
-            "name": "Host from the North",
+            "name": "Host from the North\n(AHCreate90)",
             "heroicTier": "Minor Hero"
           }
         ],
@@ -19751,7 +19829,7 @@
           {
             "all": [
               {
-                "in": "Host from the North"
+                "in": "Host from the North\n(AHCreate90)"
               },
               {
                 "in": "Gundabad Orc Captain (General)"
@@ -19768,11 +19846,11 @@
         "name": "Captain of Minas Tirith",
         "factions": [
           {
-            "name": "The Eagle and The White Tree",
+            "name": "The Eagle and The White Tree\n(AHCreate90)",
             "heroicTier": "Hero of Fortitude"
           },
           {
-            "name": "Defenders of Cair Andros",
+            "name": "Defenders of Cair Andros\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -19827,7 +19905,7 @@
             "points": 0,
             "in": [
               [
-                "Host of Eärnur"
+                "Host of Eärnur\n(Hyberias)"
               ]
             ]
           }
@@ -20510,7 +20588,7 @@
         "name": "Troll Brute",
         "factions": [
           {
-            "name": "Host from the North",
+            "name": "Host from the North\n(AHCreate90)",
             "heroicTier": "Independent Hero"
           }
         ],
@@ -20703,7 +20781,12 @@
       },
       {
         "name": "Wild Man Chieftain",
-        "factions": [],
+        "factions": [
+          {
+            "name": "Wraiths Upon the Road\n(AHCreate90)",
+            "heroicTier": "Hero of Fortitude"
+          }
+        ],
         "points": 40,
         "movement": 6,
         "fight": 4,
@@ -21094,7 +21177,7 @@
         "name": "Galadriel, Lady of Light",
         "factions": [
           {
-            "name": "Fall of Dol Guldur",
+            "name": "Fall of Dol Guldur\n(AHCreate90)",
             "heroicTier": "Hero of Legend"
           }
         ],
@@ -21163,7 +21246,7 @@
         "name": "Celeborn, Lord of Lothlorien",
         "factions": [
           {
-            "name": "Army of Eryn Lasgalen",
+            "name": "Army of Eryn Lasgalen\n(Hyberias)",
             "heroicTier": "Hero of Valour"
           }
         ],
@@ -22094,7 +22177,7 @@
             "points": 10,
             "in": [
               [
-                "Army of Eryn Lasgalen"
+                "Army of Eryn Lasgalen\n(Hyberias)"
               ]
             ]
           },
@@ -22104,7 +22187,7 @@
             "points": 30,
             "in": [
               [
-                "Army of Eryn Lasgalen"
+                "Army of Eryn Lasgalen\n(Hyberias)"
               ]
             ]
           }
@@ -22340,7 +22423,7 @@
         "name": "Palace Guard Captain",
         "factions": [
           {
-            "name": "Fall of Dol Guldur",
+            "name": "Fall of Dol Guldur\n(AHCreate90)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -22380,7 +22463,7 @@
             "points": 5,
             "availableIn": [
               "Halls of Thranduil",
-              "Fall of Dol Guldur"
+              "Fall of Dol Guldur\n(AHCreate90)"
             ]
           }
         ],
@@ -22399,11 +22482,11 @@
         "name": "Mirkwood Elf Captain",
         "factions": [
           {
-            "name": "Army of Eryn Lasgalen",
+            "name": "Army of Eryn Lasgalen\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           },
           {
-            "name": "Fall of Dol Guldur",
+            "name": "Fall of Dol Guldur\n(AHCreate90)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -22554,7 +22637,7 @@
         "name": "Gondor Battlecry Trebuchet",
         "factions": [
           {
-            "name": "Defenders of Cair Andros",
+            "name": "Defenders of Cair Andros\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -22832,11 +22915,11 @@
         "name": "Radagast the Brown",
         "factions": [
           {
-            "name": "Watchers of the Carrock",
+            "name": "Watchers of the Carrock\n(Hyberias)",
             "heroicTier": "Hero of Legend"
           },
           {
-            "name": "Council of the Istari",
+            "name": "Council of the Istari\n(AHCreate90)",
             "heroicTier": "Hero of Valour"
           }
         ],
@@ -22900,7 +22983,7 @@
             "chooseOneKey": "a",
             "availableIn": [
               "The White Council",
-              "Watchers of the Carrock"
+              "Watchers of the Carrock\n(Hyberias)"
             ]
           }
         ],
@@ -23230,11 +23313,11 @@
         "name": "Dwarven Ballista",
         "factions": [
           {
-            "name": "Battle of Eregion",
+            "name": "Battle of Eregion\n(Hyberias)",
             "heroicTier": "Independent Hero"
           },
           {
-            "name": "Kingdom of the Ered Luin",
+            "name": "Kingdom of the Ered Luin\n(Hyberias)",
             "heroicTier": "Independent Hero"
           }
         ],
@@ -23727,7 +23810,7 @@
         "points": 200,
         "factions": [
           {
-            "name": "Watchers of the Carrock",
+            "name": "Watchers of the Carrock\n(Hyberias)",
             "heroicTier": "Hero of Legend"
           }
         ],
@@ -23975,7 +24058,7 @@
         "name": "Haradrim Chieftain",
         "factions": [
           {
-            "name": "Host of the Golden King",
+            "name": "Host of the Golden King\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -24658,7 +24741,7 @@
         "name": "The Keeper of the Dungeons",
         "factions": [
           {
-            "name": "Battle of Moria",
+            "name": "Battle of Moria\n(Hyberias)",
             "heroicTier": "Hero of Valour"
           }
         ],
@@ -24854,7 +24937,7 @@
         "name": "War Mumak of Harad",
         "factions": [
           {
-            "name": "Host of the Golden King",
+            "name": "Host of the Golden King\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -24882,7 +24965,7 @@
               "Harad",
               "Grand Army of the South",
               "The Serpent Horde",
-              "Host of the Golden King"
+              "Host of the Golden King\n(Hyberias)"
             ]
           },
           {
@@ -24893,7 +24976,7 @@
               "Harad",
               "Grand Army of the South",
               "The Serpent Horde",
-              "Host of the Golden King"
+              "Host of the Golden King\n(Hyberias)"
             ]
           },
           {
@@ -25708,7 +25791,7 @@
         "name": "Noldorin Captain",
         "factions": [
           {
-            "name": "Exiles of the Noldor",
+            "name": "Exiles of the Noldor\n(AHCreate90)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -25822,15 +25905,15 @@
         ],
         "factions": [
           {
-            "name": "King Thengel's Company",
+            "name": "King Thengel's Company\n(AHCreate90)",
             "heroicTier": "Hero of Valour"
           },
           {
-            "name": "The Eagle and The White Tree",
+            "name": "The Eagle and The White Tree\n(AHCreate90)",
             "heroicTier": "Hero of Valour"
           },
           {
-            "name": "Shadow of Imladris",
+            "name": "Shadow of Imladris\n(AHCreate90)",
             "heroicTier": "Hero of Valour"
           }
         ]
@@ -25839,7 +25922,7 @@
         "name": "King Thengel",
         "factions": [
           {
-            "name": "King Thengel's Company",
+            "name": "King Thengel's Company\n(AHCreate90)",
             "heroicTier": "Hero of Valour"
           }
         ],
@@ -25908,7 +25991,7 @@
         "name": "Ecthelion II, Steward of Gondor",
         "factions": [
           {
-            "name": "The Eagle and The White Tree",
+            "name": "The Eagle and The White Tree\n(AHCreate90)",
             "heroicTier": "Hero of Valour"
           }
         ],
@@ -25977,7 +26060,7 @@
         "name": "Easterling Kataphrakt Captain — Wainrider Warlord",
         "factions": [
           {
-            "name": "The Wainriders",
+            "name": "The Wainriders\n(Hyberias)",
             "heroicTier": "Hero of Valour"
           }
         ],
@@ -26065,18 +26148,18 @@
             "name": "Horse",
             "points": 20,
             "availableIn": [
-              "Free People of the East"
+              "Free People of the East\n(AHCreate90)"
             ]
           }
         ],
         "name": "Alatar the Blue",
         "factions": [
           {
-            "name": "Council of the Istari",
+            "name": "Council of the Istari\n(AHCreate90)",
             "heroicTier": "Hero of Valour"
           },
           {
-            "name": "Free People of the East",
+            "name": "Free People of the East\n(AHCreate90)",
             "heroicTier": "Hero of Valour"
           }
         ],
@@ -26165,18 +26248,18 @@
             "name": "Horse",
             "points": 20,
             "availableIn": [
-              "Free People of the East"
+              "Free People of the East\n(AHCreate90)"
             ]
           }
         ],
         "name": "Pallando the Blue",
         "factions": [
           {
-            "name": "Council of the Istari",
+            "name": "Council of the Istari\n(AHCreate90)",
             "heroicTier": "Hero of Valour"
           },
           {
-            "name": "Free People of the East",
+            "name": "Free People of the East\n(AHCreate90)",
             "heroicTier": "Hero of Valour"
           }
         ],
@@ -26228,7 +26311,7 @@
         "name": "Gimli, Lord of Aglarond\n(Gimli, Son of Gloin)",
         "factions": [
           {
-            "name": "Defenders of Aglarond",
+            "name": "Defenders of Aglarond\n(Hyberias)",
             "heroicTier": "Hero of Valour"
           }
         ],
@@ -26286,7 +26369,7 @@
         "name": "Commander of Cair Andros\n(Captain of Minas Tirith)",
         "factions": [
           {
-            "name": "Defenders of Cair Andros",
+            "name": "Defenders of Cair Andros\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -26335,7 +26418,7 @@
         "name": "Woses Warrior Warband (8-12 Woses)",
         "factions": [
           {
-            "name": "Denizens of the Drúadan Forest",
+            "name": "Denizens of the Drúadan Forest\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -26361,7 +26444,7 @@
         "name": "Helm Hammerhand, King of Rohan\n(Helm's Guard)",
         "factions": [
           {
-            "name": "Helm's Guard",
+            "name": "Helm's Guard\n(Hyberias)",
             "heroicTier": "Hero of Legend"
           }
         ],
@@ -26424,7 +26507,7 @@
         "name": "Captain of Rohan\n(Helm's Guard)",
         "factions": [
           {
-            "name": "Helm's Guard",
+            "name": "Helm's Guard\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -26488,7 +26571,7 @@
         "name": "King's Huntsman\n(Helm's Guard)",
         "factions": [
           {
-            "name": "Helm's Guard",
+            "name": "Helm's Guard\n(Hyberias)",
             "heroicTier": "Minor Hero"
           }
         ],
@@ -26539,7 +26622,7 @@
         "name": "The Knight of Umbar\n(Tyranny from the Southlands)",
         "factions": [
           {
-            "name": "Tyranny from the Southlands",
+            "name": "Tyranny from the Southlands\n(Hyberias)",
             "heroicTier": "Hero of Legend"
           }
         ],
@@ -26631,7 +26714,7 @@
         "name": "Black Númenórean Marshal\n(Tyranny from the Southlands)",
         "factions": [
           {
-            "name": "Tyranny from the Southlands",
+            "name": "Tyranny from the Southlands\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -26691,7 +26774,7 @@
         "name": "The Dwimmerlaik\n(Dread from the Barrow-downs)",
         "factions": [
           {
-            "name": "Dread from the Barrow-downs",
+            "name": "Dread from the Barrow-downs\n(Hyberias)",
             "heroicTier": "Hero of Valour"
           }
         ],
@@ -26782,7 +26865,7 @@
         "name": "The Tainted\n(Dread from the Barrow-downs)",
         "factions": [
           {
-            "name": "Dread from the Barrow-downs",
+            "name": "Dread from the Barrow-downs\n(Hyberias)",
             "heroicTier": "Hero of Valour"
           }
         ],
@@ -26874,7 +26957,7 @@
         "name": "Barrow-wight\n(Dread from the Barrow-downs)",
         "factions": [
           {
-            "name": "Dread from the Barrow-downs",
+            "name": "Dread from the Barrow-downs\n(Hyberias)",
             "heroicTier": "Minor Hero"
           }
         ],
@@ -26928,7 +27011,7 @@
         "name": "Shade\n(Dread from the Barrow-downs)",
         "factions": [
           {
-            "name": "Dread from the Barrow-downs",
+            "name": "Dread from the Barrow-downs\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -26978,7 +27061,7 @@
         "name": "Gildor Inglorion\n(Waywardens of Eriador)",
         "factions": [
           {
-            "name": "Waywardens of Eriador",
+            "name": "Waywardens of Eriador\n(Hyberias)",
             "heroicTier": "Hero of Valour"
           }
         ],
@@ -27043,7 +27126,7 @@
         "points": 160,
         "factions": [
           {
-            "name": "Waywardens of Eriador",
+            "name": "Waywardens of Eriador\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -27094,7 +27177,7 @@
         "name": "Elrohir\n(Waywardens of Eriador)",
         "factions": [
           {
-            "name": "Waywardens of Eriador",
+            "name": "Waywardens of Eriador\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -27146,7 +27229,7 @@
         "name": "Knight of the White Tower\n(Host of Eärnur)",
         "factions": [
           {
-            "name": "Host of Eärnur",
+            "name": "Host of Eärnur\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -27195,7 +27278,7 @@
         "name": "Earnur, Last King of Gondor\n(Host of Eärnur)",
         "factions": [
           {
-            "name": "Host of Eärnur",
+            "name": "Host of Eärnur\n(Hyberias)",
             "heroicTier": "Hero of Legend"
           }
         ],
@@ -27253,7 +27336,7 @@
         "name": "Captain of Minas Tirith\n(Host of Eärnur)",
         "factions": [
           {
-            "name": "Host of Eärnur",
+            "name": "Host of Eärnur\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -27302,7 +27385,7 @@
         "name": "Mordor Orc Shaman\n(Raiders from the Ered Nimras)",
         "factions": [
           {
-            "name": "Raiders from the Ered Nimras",
+            "name": "Raiders from the Ered Nimras\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -27367,7 +27450,7 @@
         "name": "Wild Warg Chieftain\n(Raiders from the Ered Nimras)",
         "factions": [
           {
-            "name": "Raiders from the Ered Nimras",
+            "name": "Raiders from the Ered Nimras\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -27417,7 +27500,7 @@
         "name": "Shank & Wrot, Orc Scavengers\n(Raiders from the Ered Nimras)",
         "factions": [
           {
-            "name": "Raiders from the Ered Nimras",
+            "name": "Raiders from the Ered Nimras\n(Hyberias)",
             "heroicTier": "Hero of Valour"
           }
         ],
@@ -27454,7 +27537,7 @@
         "name": "Mordor Orc Captain\n(Raiders from the Ered Nimras)",
         "factions": [
           {
-            "name": "Raiders from the Ered Nimras",
+            "name": "Raiders from the Ered Nimras\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -27502,7 +27585,7 @@
         "name": "Wild Warg Chieftain\n(Terrors of Fornost)",
         "factions": [
           {
-            "name": "Terrors of Fornost",
+            "name": "Terrors of Fornost\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -27552,7 +27635,7 @@
         "name": "Angmar Orc Shaman\n(Terrors of Fornost)",
         "factions": [
           {
-            "name": "Terrors of Fornost",
+            "name": "Terrors of Fornost\n(Hyberias)",
             "heroicTier": "Minor Hero"
           }
         ],
@@ -27622,7 +27705,7 @@
         "name": "Angmar Orc Captain\n(Terrors of Fornost)",
         "factions": [
           {
-            "name": "Terrors of Fornost",
+            "name": "Terrors of Fornost\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -27670,7 +27753,7 @@
         "name": "Nazthak, Orc Captain\n(Terrors of Fornost)",
         "factions": [
           {
-            "name": "Terrors of Fornost",
+            "name": "Terrors of Fornost\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -27718,7 +27801,7 @@
         "name": "Gulavhar, The Terror of Arnor\n(Terrors of Fornost)",
         "factions": [
           {
-            "name": "Terrors of Fornost",
+            "name": "Terrors of Fornost\n(Hyberias)",
             "heroicTier": "Hero of Legend"
           }
         ],
@@ -27777,7 +27860,7 @@
         "name": "Thranduil, King of the Woodland Realm\n(Army of Eryn Lasgalen)",
         "factions": [
           {
-            "name": "Army of Eryn Lasgalen",
+            "name": "Army of Eryn Lasgalen\n(Hyberias)",
             "heroicTier": "Hero of Valour"
           }
         ],
@@ -27830,7 +27913,7 @@
         "name": "Captain of Rohan\n(Royal Standard Bearer)",
         "factions": [
           {
-            "name": "King Thengel's Company",
+            "name": "King Thengel's Company\n(AHCreate90)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -27894,7 +27977,7 @@
         "name": "Ranger of the North\n(Remnants of Arnor)",
         "factions": [
           {
-            "name": "Remnants of Arnor",
+            "name": "Remnants of Arnor\n(Hyberias)",
             "heroicTier": "Independent Hero"
           }
         ],
@@ -27948,7 +28031,7 @@
         "name": "Khandish King\n(The Wainriders)",
         "factions": [
           {
-            "name": "The Wainriders",
+            "name": "The Wainriders\n(Hyberias)",
             "heroicTier": "Hero of Valour"
           }
         ],
@@ -28132,7 +28215,7 @@
         "name": "Celeborn, The Silver Lord",
         "factions": [
           {
-            "name": "Fall of Dol Guldur",
+            "name": "Fall of Dol Guldur\n(AHCreate90)",
             "heroicTier": "Hero of Legend"
           }
         ],
@@ -28209,7 +28292,7 @@
         "name": "Thranduil, King of the Woodland Realm\n(Fall of Dol Guldur)",
         "factions": [
           {
-            "name": "Fall of Dol Guldur",
+            "name": "Fall of Dol Guldur\n(AHCreate90)",
             "heroicTier": "Hero of Legend"
           }
         ],
@@ -28262,7 +28345,7 @@
             "points": 10,
             "in": [
               [
-                "Army of Eryn Lasgalen"
+                "Army of Eryn Lasgalen\n(Hyberias)"
               ]
             ]
           },
@@ -28272,7 +28355,7 @@
             "points": 30,
             "in": [
               [
-                "Army of Eryn Lasgalen"
+                "Army of Eryn Lasgalen\n(Hyberias)"
               ]
             ]
           }
@@ -28323,7 +28406,7 @@
         "name": "Great Beast of Gorgoroth (General)",
         "factions": [
           {
-            "name": "Ash and Ivory",
+            "name": "Ash and Ivory\n(AHCreate90)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -28390,7 +28473,7 @@
         "name": "Ruffian Warband (10-12 Ruffians)",
         "factions": [
           {
-            "name": "Brigands of Breeland",
+            "name": "Brigands of Breeland\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -28416,7 +28499,7 @@
         "name": "Angmar Orc Captain (General)",
         "factions": [
           {
-            "name": "Host from the North",
+            "name": "Host from the North\n(AHCreate90)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -28466,7 +28549,7 @@
         "name": "Gundabad Orc Captain (General)",
         "factions": [
           {
-            "name": "Host from the North",
+            "name": "Host from the North\n(AHCreate90)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -28519,7 +28602,7 @@
         "name": "Captain of Carn Dum (General)",
         "factions": [
           {
-            "name": "Host from the North",
+            "name": "Host from the North\n(AHCreate90)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -28572,7 +28655,7 @@
         "name": "Hunter Orc Captain\n(Battle of Moria)",
         "factions": [
           {
-            "name": "Battle of Moria",
+            "name": "Battle of Moria\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -28628,7 +28711,7 @@
         "name": "Grishnakh, Orc Captain\n(Grishnákh's Horde)",
         "factions": [
           {
-            "name": "Grishnákh's Horde",
+            "name": "Grishnákh's Horde\n(Hyberias)",
             "heroicTier": "Hero of Valour"
           }
         ],
@@ -28676,7 +28759,7 @@
         "name": "Snaga, Orc Captain\n(Grishnákh's Horde)",
         "factions": [
           {
-            "name": "Grishnákh's Horde",
+            "name": "Grishnákh's Horde\n(Hyberias)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -28723,7 +28806,7 @@
         "name": "Thorin Oakenshield, King Under the Mountain\n(Ride to Ravenhill)",
         "factions": [
           {
-            "name": "Ride to Ravenhill",
+            "name": "Ride to Ravenhill\n(Wardens)",
             "heroicTier": "Hero of Legend"
           }
         ],
@@ -28777,7 +28860,7 @@
         "name": "Bofur the Dwarf, Champion of Erebor\n(Ride to Ravenhill)",
         "factions": [
           {
-            "name": "Ride to Ravenhill",
+            "name": "Ride to Ravenhill\n(Wardens)",
             "heroicTier": "Hero of Fortitude"
           }
         ],
@@ -28821,6 +28904,89 @@
           "Two-handed weapon",
           "Throwing weapons",
           "Troll Brute"
+        ]
+      },
+      {
+        "name": "Twilight Ringwraith",
+        "factions": [
+          {
+            "name": "Wraiths Upon the Road\n(AHCreate90)",
+            "heroicTier": "Hero of Valour"
+          },
+          {
+            "name": "Shadows in the Barrows\n(AHCreate90)",
+            "heroicTier": "Hero of Valour"
+          }
+        ],
+        "unlimited": true,
+        "points": 70,
+        "movement": 6,
+        "fight": 5,
+        "shoot": 4,
+        "strength": 4,
+        "defence": 6,
+        "attack": 1,
+        "wounds": 1,
+        "courage": 4,
+        "intelligence": 4,
+        "might": 1,
+        "will": 7,
+        "fate": 0,
+        "race": [
+          "Spirit",
+          "Ringwraith"
+        ],
+        "faction": [
+          "Mordor"
+        ],
+        "unitType": [
+          "Hero",
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "heroicActions": [
+          "Heroic Channeling"
+        ],
+        "specialRules": [
+          "Will of Evil",
+          "Kindred in the Unseen"
+        ],
+        "wargear": [
+          "Hand weapon"
+        ],
+        "magicalPowers": [
+          {
+            "name": "Compel",
+            "range": 12,
+            "casting": 3
+          },
+          {
+            "name": "Curse",
+            "range": 6,
+            "casting": 4
+          },
+          {
+            "name": "Drain Courage",
+            "range": 12,
+            "casting": 4
+          },
+          {
+            "name": "Panic Steed",
+            "range": 12,
+            "casting": 4
+          },
+          {
+            "name": "Instill Fear",
+            "range": "Self",
+            "casting": 5
+          },
+          {
+            "name": "Chill Soul",
+            "range": 6,
+            "casting": 6
+          }
         ]
       }
     ],
@@ -29200,7 +29366,7 @@
       {
         "name": "Khandish Charioteer",
         "factions": [
-          "The Wainriders"
+          "The Wainriders\n(Hyberias)"
         ],
         "points": 40,
         "movement": 10,
@@ -29260,7 +29426,7 @@
                 "in": "Khandish King"
               },
               {
-                "in": "The Wainriders"
+                "in": "The Wainriders\n(Hyberias)"
               }
             ]
           },
@@ -29270,7 +29436,7 @@
                 "in": "Khandish Chieftain"
               },
               {
-                "in": "The Wainriders"
+                "in": "The Wainriders\n(Hyberias)"
               }
             ]
           }
@@ -29279,8 +29445,8 @@
       {
         "name": "Khandish Horseman",
         "factions": [
-          "The Wainriders",
-          "Free People of the East"
+          "The Wainriders\n(Hyberias)",
+          "Free People of the East\n(AHCreate90)"
         ],
         "points": 14,
         "movement": 6,
@@ -29334,7 +29500,7 @@
                 "in": "Khandish King"
               },
               {
-                "in": "The Wainriders"
+                "in": "The Wainriders\n(Hyberias)"
               }
             ]
           },
@@ -29344,7 +29510,7 @@
                 "in": "Khandish Chieftain"
               },
               {
-                "in": "The Wainriders"
+                "in": "The Wainriders\n(Hyberias)"
               }
             ]
           }
@@ -29353,8 +29519,8 @@
       {
         "name": "Khandish Warrior",
         "factions": [
-          "The Wainriders",
-          "Free People of the East"
+          "The Wainriders\n(Hyberias)",
+          "Free People of the East\n(AHCreate90)"
         ],
         "points": 8,
         "movement": 6,
@@ -29403,7 +29569,7 @@
                 "in": "Khandish King"
               },
               {
-                "in": "The Wainriders"
+                "in": "The Wainriders\n(Hyberias)"
               }
             ]
           },
@@ -29413,7 +29579,7 @@
                 "in": "Khandish Chieftain"
               },
               {
-                "in": "The Wainriders"
+                "in": "The Wainriders\n(Hyberias)"
               }
             ]
           }
@@ -29611,7 +29777,7 @@
       {
         "name": "Abrakhan Merchant Guard",
         "factions": [
-          "Host of the Golden King"
+          "Host of the Golden King\n(Hyberias)"
         ],
         "points": 9,
         "movement": 6,
@@ -29995,7 +30161,7 @@
       {
         "name": "Orc Tracker",
         "factions": [
-          "Grishnákh's Horde"
+          "Grishnákh's Horde\n(Hyberias)"
         ],
         "points": 6,
         "movement": 6,
@@ -30040,7 +30206,7 @@
             "points": 0,
             "in": [
               [
-                "Raiders from the Ered Nimras"
+                "Raiders from the Ered Nimras\n(Hyberias)"
               ]
             ]
           }
@@ -30392,7 +30558,7 @@
       {
         "name": "Haradrim Raider",
         "factions": [
-          "Host of the Golden King"
+          "Host of the Golden King\n(Hyberias)"
         ],
         "points": 11,
         "movement": 6,
@@ -30453,7 +30619,7 @@
         "points": 5,
         "movement": 6,
         "factions": [
-          "Brigands of Breeland"
+          "Brigands of Breeland\n(Hyberias)"
         ],
         "fight": 2,
         "shoot": 5,
@@ -30894,7 +31060,7 @@
             "points": 0,
             "in": [
               [
-                "Terrors of Fornost"
+                "Terrors of Fornost\n(Hyberias)"
               ]
             ]
           }
@@ -31038,7 +31204,7 @@
       {
         "name": "Wood Elf Sentinel",
         "factions": [
-          "Waywardens of Eriador"
+          "Waywardens of Eriador\n(Hyberias)"
         ],
         "points": 25,
         "movement": 8,
@@ -31553,7 +31719,7 @@
             "points": 0,
             "in": [
               [
-                "Tyranny from the Southlands"
+                "Tyranny from the Southlands\n(Hyberias)"
               ]
             ]
           }
@@ -31620,7 +31786,7 @@
             "points": 0,
             "in": [
               [
-                "Tyranny from the Southlands"
+                "Tyranny from the Southlands\n(Hyberias)"
               ]
             ]
           }
@@ -31685,9 +31851,9 @@
       {
         "name": "Easterling Kataphrakt",
         "factions": [
-          "Host of the Black Easterling",
-          "The Dragon Legion",
-          "The Wainriders"
+          "Host of the Black Easterling\n(Hyberias)",
+          "The Dragon Legion\n(Hyberias)",
+          "The Wainriders\n(Hyberias)"
         ],
         "points": 15,
         "movement": 6,
@@ -31747,7 +31913,7 @@
                 "in": "Easterling Captain"
               },
               {
-                "in": "The Wainriders"
+                "in": "The Wainriders\n(Hyberias)"
               }
             ]
           },
@@ -31757,7 +31923,7 @@
                 "in": "Easterling Kataphrakt Captain — Wainrider Warlord"
               },
               {
-                "in": "The Wainriders"
+                "in": "The Wainriders\n(Hyberias)"
               }
             ]
           },
@@ -31767,7 +31933,7 @@
                 "in": "Easterling War Priest"
               },
               {
-                "in": "The Wainriders"
+                "in": "The Wainriders\n(Hyberias)"
               }
             ]
           }
@@ -31776,7 +31942,7 @@
       {
         "name": "War Drake of Rhun",
         "factions": [
-          "The Dragon Legion"
+          "The Dragon Legion\n(Hyberias)"
         ],
         "points": 20,
         "movement": 6,
@@ -34136,7 +34302,7 @@
       {
         "name": "Warrior of Carn Dum",
         "factions": [
-          "Host from the North"
+          "Host from the North\n(AHCreate90)"
         ],
         "points": 9,
         "movement": 6,
@@ -35250,7 +35416,7 @@
                 "in": "Aranarth, First Chieftain of the Dunedain"
               },
               {
-                "in": "Remnants of Arnor"
+                "in": "Remnants of Arnor\n(Hyberias)"
               }
             ]
           },
@@ -35280,7 +35446,7 @@
                 "in": "Thorongil, Eagle of the Star"
               },
               {
-                "in": "The Eagle and The White Tree"
+                "in": "The Eagle and The White Tree\n(AHCreate90)"
               }
             ]
           }
@@ -35463,8 +35629,8 @@
       {
         "name": "Warrior of Rohan",
         "factions": [
-          "King Thengel's Company",
-          "Defenders of Aglarond"
+          "King Thengel's Company\n(AHCreate90)",
+          "Defenders of Aglarond\n(Hyberias)"
         ],
         "points": 6,
         "movement": 6,
@@ -35536,8 +35702,8 @@
       {
         "name": "Rider of Rohan",
         "factions": [
-          "King Thengel's Company",
-          "Defenders of Aglarond"
+          "King Thengel's Company\n(AHCreate90)",
+          "Defenders of Aglarond\n(Hyberias)"
         ],
         "points": 14,
         "movement": 6,
@@ -35644,7 +35810,7 @@
             "points": 0,
             "in": [
               [
-                "Defenders of Aglarond",
+                "Defenders of Aglarond\n(Hyberias)",
                 "Erkenbrand, Captain of Rohan"
               ]
             ]
@@ -35654,7 +35820,7 @@
       {
         "name": "Rohan Royal Guard",
         "factions": [
-          "King Thengel's Company"
+          "King Thengel's Company\n(AHCreate90)"
         ],
         "points": 11,
         "movement": 6,
@@ -35718,8 +35884,8 @@
               "Realms of Men",
               "Fords of Isen",
               "Paths of the Druadan",
-              "King Thengel's Company",
-              "Helm's Guard"
+              "King Thengel's Company\n(AHCreate90)",
+              "Helm's Guard\n(Hyberias)"
             ],
             "chooseOneKey": "a"
           },
@@ -35733,8 +35899,8 @@
               "Realms of Men",
               "Defenders of Helm's Deep",
               "Fords of Isen",
-              "King Thengel's Company",
-              "Helm's Guard"
+              "King Thengel's Company\n(AHCreate90)",
+              "Helm's Guard\n(Hyberias)"
             ]
           },
           {
@@ -35745,8 +35911,8 @@
               "Kingdom of Rohan",
               "Realms of Men",
               "Fords of Isen",
-              "King Thengel's Company",
-              "Helm's Guard"
+              "King Thengel's Company\n(AHCreate90)",
+              "Helm's Guard\n(Hyberias)"
             ],
             "chooseOneKey": "a"
           },
@@ -35759,7 +35925,7 @@
               "Riders of Theoden",
               "Defenders of the Pelennor",
               "Paths of the Druadan",
-              "Helm's Guard"
+              "Helm's Guard\n(Hyberias)"
             ]
           }
         ],
@@ -36104,8 +36270,9 @@
       {
         "name": "Mordor Orc Warrior",
         "factions": [
-          "Assault upon Minas Tirith",
-          "Grishnákh's Horde"
+          "Assault upon Minas Tirith\n(Hyberias)",
+          "Grishnákh's Horde\n(Hyberias)",
+          "Wraiths Upon the Road\n(AHCreate90)"
         ],
         "points": 5,
         "movement": 6,
@@ -36178,7 +36345,7 @@
             "points": 0,
             "in": [
               [
-                "Raiders from the Ered Nimras"
+                "Raiders from the Ered Nimras\n(Hyberias)"
               ]
             ]
           }
@@ -36255,7 +36422,7 @@
       {
         "name": "Angmar Orc Warrior",
         "factions": [
-          "Host from the North"
+          "Host from the North\n(AHCreate90)"
         ],
         "points": 5,
         "movement": 6,
@@ -36323,7 +36490,7 @@
             "points": 0,
             "in": [
               [
-                "Terrors of Fornost"
+                "Terrors of Fornost\n(Hyberias)"
               ]
             ]
           }
@@ -36332,7 +36499,7 @@
       {
         "name": "Morannon Orc Warrior",
         "factions": [
-          "Assault upon Minas Tirith"
+          "Assault upon Minas Tirith\n(Hyberias)"
         ],
         "points": 8,
         "movement": 6,
@@ -36430,7 +36597,7 @@
       {
         "name": "Mordor Warg Rider",
         "factions": [
-          "Ash and Ivory"
+          "Ash and Ivory\n(AHCreate90)"
         ],
         "points": 11,
         "movement": 6,
@@ -36490,7 +36657,7 @@
             "points": 0,
             "in": [
               [
-                "Raiders from the Ered Nimras"
+                "Raiders from the Ered Nimras\n(Hyberias)"
               ]
             ]
           }
@@ -36601,7 +36768,7 @@
       {
         "name": "Angmar Warg Rider",
         "factions": [
-          "Host from the North"
+          "Host from the North\n(AHCreate90)"
         ],
         "points": 11,
         "movement": 6,
@@ -36665,7 +36832,7 @@
             "points": 0,
             "in": [
               [
-                "Terrors of Fornost"
+                "Terrors of Fornost\n(Hyberias)"
               ]
             ]
           }
@@ -36674,7 +36841,7 @@
       {
         "name": "Mordor Troll",
         "factions": [
-          "Assault upon Minas Tirith"
+          "Assault upon Minas Tirith\n(Hyberias)"
         ],
         "points": 90,
         "movement": 6,
@@ -36897,7 +37064,7 @@
             "points": 0,
             "in": [
               [
-                "Waywardens of Eriador"
+                "Waywardens of Eriador\n(Hyberias)"
               ]
             ]
           }
@@ -36927,7 +37094,7 @@
             "name": "Noldorian Exile",
             "points": 0,
             "availableIn": [
-              "Waywardens of Eriador"
+              "Waywardens of Eriador\n(Hyberias)"
             ]
           }
         ],
@@ -36998,9 +37165,9 @@
       {
         "name": "Rivendell Warrior",
         "factions": [
-          "King Thengel's Company",
-          "Shadow of Imladris",
-          "Battle of Eregion"
+          "King Thengel's Company\n(AHCreate90)",
+          "Shadow of Imladris\n(AHCreate90)",
+          "Battle of Eregion\n(Hyberias)"
         ],
         "points": 9,
         "movement": 6,
@@ -37066,9 +37233,9 @@
       {
         "name": "Rivendell Knight",
         "factions": [
-          "King Thengel's Company",
-          "Shadow of Imladris",
-          "Battle of Eregion"
+          "King Thengel's Company\n(AHCreate90)",
+          "Shadow of Imladris\n(AHCreate90)",
+          "Battle of Eregion\n(Hyberias)"
         ],
         "points": 20,
         "movement": 6,
@@ -37130,7 +37297,7 @@
       {
         "name": "Warrior of Minas Tirith",
         "factions": [
-          "The Eagle and The White Tree"
+          "The Eagle and The White Tree\n(AHCreate90)"
         ],
         "points": 8,
         "movement": 6,
@@ -37213,7 +37380,7 @@
             "points": 0,
             "in": [
               [
-                "Host of Eärnur"
+                "Host of Eärnur\n(Hyberias)"
               ]
             ]
           }
@@ -37258,7 +37425,7 @@
       {
         "name": "Knight of Minas Tirith",
         "factions": [
-          "The Eagle and The White Tree"
+          "The Eagle and The White Tree\n(AHCreate90)"
         ],
         "points": 15,
         "movement": 6,
@@ -37318,7 +37485,7 @@
             "points": 0,
             "in": [
               [
-                "Host of Eärnur"
+                "Host of Eärnur\n(Hyberias)"
               ]
             ]
           }
@@ -37395,7 +37562,7 @@
             "points": 0,
             "in": [
               [
-                "Host of Eärnur"
+                "Host of Eärnur\n(Hyberias)"
               ]
             ]
           }
@@ -37540,7 +37707,7 @@
             "points": 0,
             "in": [
               [
-                "Host of Eärnur"
+                "Host of Eärnur\n(Hyberias)"
               ]
             ]
           }
@@ -37549,7 +37716,8 @@
       {
         "name": "Spectre",
         "factions": [
-          "Host from the North"
+          "Host from the North\n(AHCreate90)",
+          "Shadows in the Barrows\n(AHCreate90)"
         ],
         "points": 15,
         "movement": 6,
@@ -37597,7 +37765,7 @@
             "points": 0,
             "in": [
               [
-                "Dread from the Barrow-downs"
+                "Dread from the Barrow-downs\n(Hyberias)"
               ]
             ]
           }
@@ -37606,7 +37774,7 @@
           {
             "all": [
               {
-                "in": "Host from the North"
+                "in": "Host from the North\n(AHCreate90)"
               },
               {
                 "in": "Angmar Orc Captain (General)"
@@ -37621,7 +37789,9 @@
       },
       {
         "name": "Wild Warg",
-        "factions": [],
+        "factions": [
+          "Shadows in the Barrows\n(AHCreate90)"
+        ],
         "points": 7,
         "movement": 10,
         "fight": 3,
@@ -37667,7 +37837,7 @@
             "points": 0,
             "in": [
               [
-                "Terrors of Fornost"
+                "Terrors of Fornost\n(Hyberias)"
               ]
             ]
           },
@@ -37677,7 +37847,7 @@
             "points": 0,
             "in": [
               [
-                "Raiders from the Ered Nimras"
+                "Raiders from the Ered Nimras\n(Hyberias)"
               ]
             ]
           }
@@ -38314,7 +38484,7 @@
       {
         "name": "Warrior of the Dead",
         "factions": [
-          "The Dead of Dunharrow"
+          "The Dead of Dunharrow\n(Hyberias)"
         ],
         "points": 14,
         "movement": 8,
@@ -38401,13 +38571,13 @@
               }
             ]
           },
-          "The Dead of Dunharrow"
+          "The Dead of Dunharrow\n(Hyberias)"
         ]
       },
       {
         "name": "Rider of the Dead",
         "factions": [
-          "The Dead of Dunharrow"
+          "The Dead of Dunharrow\n(Hyberias)"
         ],
         "points": 25,
         "movement": 8,
@@ -38475,13 +38645,13 @@
               }
             ]
           },
-          "The Dead of Dunharrow"
+          "The Dead of Dunharrow\n(Hyberias)"
         ]
       },
       {
         "name": "Hunter Orc Warrior",
         "factions": [
-          "Battle of Moria"
+          "Battle of Moria\n(Hyberias)"
         ],
         "points": 8,
         "movement": 6,
@@ -38572,7 +38742,7 @@
         "specialRules": [],
         "availableIn": [
           {
-            "in": "Host from the North"
+            "in": "Host from the North\n(AHCreate90)"
           }
         ],
         "countAsProperty": "heroes"
@@ -38580,7 +38750,7 @@
       {
         "name": "Gundabad Ogre",
         "factions": [
-          "Host from the North"
+          "Host from the North\n(AHCreate90)"
         ],
         "points": 60,
         "movement": 8,
@@ -38657,7 +38827,9 @@
       },
       {
         "name": "Fell Warg",
-        "factions": [],
+        "factions": [
+          "Shadows in the Barrows\n(AHCreate90)"
+        ],
         "points": 8,
         "movement": 10,
         "fight": 3,
@@ -38706,7 +38878,7 @@
       {
         "name": "Werewolf",
         "factions": [
-          "Host from the North"
+          "Host from the North\n(AHCreate90)"
         ],
         "points": 25,
         "movement": 10,
@@ -38753,7 +38925,7 @@
             "points": 0,
             "in": [
               [
-                "Terrors of Fornost"
+                "Terrors of Fornost\n(Hyberias)"
               ]
             ]
           }
@@ -38762,7 +38934,7 @@
           {
             "all": [
               {
-                "in": "Host from the North"
+                "in": "Host from the North\n(AHCreate90)"
               },
               {
                 "in": "Captain of Carn Dum (General)"
@@ -38778,7 +38950,7 @@
       {
         "name": "Hill Troll",
         "factions": [
-          "Host from the North"
+          "Host from the North\n(AHCreate90)"
         ],
         "points": 75,
         "movement": 6,
@@ -38818,8 +38990,8 @@
       {
         "name": "Galadhrim Warrior",
         "factions": [
-          "Army of Eryn Lasgalen",
-          "Fall of Dol Guldur"
+          "Army of Eryn Lasgalen\n(Hyberias)",
+          "Fall of Dol Guldur\n(AHCreate90)"
         ],
         "points": 9,
         "movement": 6,
@@ -38898,7 +39070,7 @@
             "points": 0,
             "in": [
               [
-                "Army of Eryn Lasgalen",
+                "Army of Eryn Lasgalen\n(Hyberias)",
                 "Celeborn, Lord of Lothlorien"
               ]
             ]
@@ -38948,10 +39120,10 @@
       {
         "name": "Dwarf Warrior",
         "factions": [
-          "Defenders of Aglarond",
-          "Free People of the East",
-          "Battle of Eregion",
-          "Kingdom of the Ered Luin"
+          "Defenders of Aglarond\n(Hyberias)",
+          "Free People of the East\n(AHCreate90)",
+          "Battle of Eregion\n(Hyberias)",
+          "Kingdom of the Ered Luin\n(Hyberias)"
         ],
         "points": 8,
         "movement": 5,
@@ -39012,7 +39184,7 @@
       {
         "name": "Khazad Guard",
         "factions": [
-          "Kingdom of the Ered Luin"
+          "Kingdom of the Ered Luin\n(Hyberias)"
         ],
         "points": 12,
         "movement": 5,
@@ -39128,9 +39300,9 @@
       {
         "name": "Dwarf Ranger",
         "factions": [
-          "Defenders of Aglarond",
-          "Free People of the East",
-          "Kingdom of the Ered Luin"
+          "Defenders of Aglarond\n(Hyberias)",
+          "Free People of the East\n(AHCreate90)",
+          "Kingdom of the Ered Luin\n(Hyberias)"
         ],
         "points": 8,
         "movement": 5,
@@ -39272,10 +39444,10 @@
       {
         "name": "Easterling Warrior",
         "factions": [
-          "Host of the Black Easterling",
-          "The Dragon Legion",
-          "The Wainriders",
-          "Free People of the East"
+          "Host of the Black Easterling\n(Hyberias)",
+          "The Dragon Legion\n(Hyberias)",
+          "The Wainriders\n(Hyberias)",
+          "Free People of the East\n(AHCreate90)"
         ],
         "points": 8,
         "movement": 6,
@@ -39338,21 +39510,21 @@
           {
             "all": [
               {
-                "in": "Host of the Black Easterling"
+                "in": "Host of the Black Easterling\n(Hyberias)"
               }
             ]
           },
           {
             "all": [
               {
-                "in": "The Dragon Legion"
+                "in": "The Dragon Legion\n(Hyberias)"
               }
             ]
           },
           {
             "all": [
               {
-                "in": "The Wainriders"
+                "in": "The Wainriders\n(Hyberias)"
               }
             ]
           }
@@ -39361,7 +39533,7 @@
       {
         "name": "Gundabad Orc Warrior",
         "factions": [
-          "Host from the North"
+          "Host from the North\n(AHCreate90)"
         ],
         "points": 9,
         "movement": 6,
@@ -39420,7 +39592,7 @@
       {
         "name": "Gundabad Berserker",
         "factions": [
-          "Host from the North"
+          "Host from the North\n(AHCreate90)"
         ],
         "points": 15,
         "movement": 8,
@@ -39463,7 +39635,7 @@
       {
         "name": "Gundabad Troll",
         "factions": [
-          "Host from the North"
+          "Host from the North\n(AHCreate90)"
         ],
         "points": 120,
         "movement": 6,
@@ -39515,7 +39687,7 @@
       {
         "name": "Goblin Mercenary",
         "factions": [
-          "Host from the North"
+          "Host from the North\n(AHCreate90)"
         ],
         "points": 6,
         "movement": 5,
@@ -39554,7 +39726,7 @@
           {
             "all": [
               {
-                "in": "Host from the North"
+                "in": "Host from the North\n(AHCreate90)"
               },
               {
                 "in": "Gundabad Orc Captain (General)"
@@ -39570,7 +39742,7 @@
       {
         "name": "Woses Warrior",
         "factions": [
-          "Denizens of the Drúadan Forest"
+          "Denizens of the Drúadan Forest\n(Hyberias)"
         ],
         "points": 9,
         "movement": 6,
@@ -39675,7 +39847,9 @@
       },
       {
         "name": "Wild Man of Dunland",
-        "factions": [],
+        "factions": [
+          "Wraiths Upon the Road\n(AHCreate90)"
+        ],
         "points": 5,
         "movement": 6,
         "fight": 3,
@@ -39991,7 +40165,7 @@
       {
         "name": "Palace Guard",
         "factions": [
-          "Fall of Dol Guldur"
+          "Fall of Dol Guldur\n(AHCreate90)"
         ],
         "points": 12,
         "movement": 6,
@@ -40079,8 +40253,8 @@
       {
         "name": "Mirkwood Elf Warrior",
         "factions": [
-          "Army of Eryn Lasgalen",
-          "Fall of Dol Guldur"
+          "Army of Eryn Lasgalen\n(Hyberias)",
+          "Fall of Dol Guldur\n(AHCreate90)"
         ],
         "points": 9,
         "movement": 6,
@@ -40217,7 +40391,7 @@
       {
         "name": "Crebain",
         "factions": [
-          "Brigands of Breeland"
+          "Brigands of Breeland\n(Hyberias)"
         ],
         "points": 20,
         "movement": 12,
@@ -40681,7 +40855,7 @@
       {
         "name": "Beorning",
         "factions": [
-          "Watchers of the Carrock"
+          "Watchers of the Carrock\n(Hyberias)"
         ],
         "additionalHeroes": [
           "Grimbeorn",
@@ -40718,7 +40892,7 @@
       {
         "name": "Haradrim Warrior",
         "factions": [
-          "Host of the Golden King"
+          "Host of the Golden King\n(Hyberias)"
         ],
         "points": 6,
         "movement": 6,
@@ -40751,7 +40925,7 @@
               "Grand Army of the South",
               "Umbar",
               "The Serpent Horde",
-              "Host of the Golden King"
+              "Host of the Golden King\n(Hyberias)"
             ]
           },
           {
@@ -40764,7 +40938,7 @@
               "Grand Army of the South",
               "Umbar",
               "The Serpent Horde",
-              "Host of the Golden King"
+              "Host of the Golden King\n(Hyberias)"
             ]
           },
           {
@@ -40796,7 +40970,7 @@
               }
             ]
           },
-          "Host of the Golden King"
+          "Host of the Golden King\n(Hyberias)"
         ]
       },
       {
@@ -40966,7 +41140,7 @@
       {
         "name": "Noldorin Exile",
         "factions": [
-          "Exiles of the Noldor"
+          "Exiles of the Noldor\n(AHCreate90)"
         ],
         "points": 9,
         "movement": 8,
@@ -41029,7 +41203,7 @@
       {
         "name": "Noldorin Sentinel",
         "factions": [
-          "Exiles of the Noldor"
+          "Exiles of the Noldor\n(AHCreate90)"
         ],
         "points": 25,
         "movement": 8,
@@ -41108,7 +41282,7 @@
                 "in": "Thorongil, Eagle of the Star"
               },
               {
-                "in": "The Eagle and The White Tree"
+                "in": "The Eagle and The White Tree\n(AHCreate90)"
               }
             ]
           }
@@ -41117,7 +41291,7 @@
       {
         "name": "Warrior of Rohan\n(Helm's Guard)",
         "factions": [
-          "Helm's Guard"
+          "Helm's Guard\n(Hyberias)"
         ],
         "points": 6,
         "movement": 6,
@@ -41178,7 +41352,7 @@
       {
         "name": "Rider of Rohan\n(Helm's Guard)",
         "factions": [
-          "Helm's Guard"
+          "Helm's Guard\n(Hyberias)"
         ],
         "points": 14,
         "movement": 6,
@@ -41276,7 +41450,7 @@
       {
         "name": "Rohan Royal Guard\n(Helm's Guard)",
         "factions": [
-          "Helm's Guard"
+          "Helm's Guard\n(Hyberias)"
         ],
         "points": 11,
         "movement": 6,
@@ -41335,7 +41509,7 @@
       {
         "name": "Rohan Outrider\n(Helm's Guard)",
         "factions": [
-          "Helm's Guard"
+          "Helm's Guard\n(Hyberias)"
         ],
         "points": 8,
         "movement": 6,
@@ -41380,7 +41554,7 @@
       {
         "name": "Black Numenorean Warrior\n(Tyranny from the Southlands)",
         "factions": [
-          "Tyranny from the Southlands"
+          "Tyranny from the Southlands\n(Hyberias)"
         ],
         "points": 10,
         "movement": 6,
@@ -41420,7 +41594,7 @@
       {
         "name": "Black Numenorean Knight\n(Tyranny from the Southlands)",
         "factions": [
-          "Tyranny from the Southlands"
+          "Tyranny from the Southlands\n(Hyberias)"
         ],
         "points": 20,
         "movement": 6,
@@ -41474,7 +41648,7 @@
       {
         "name": "Spectre\n(Dread from the Barrow-downs)",
         "factions": [
-          "Dread from the Barrow-downs"
+          "Dread from the Barrow-downs\n(Hyberias)"
         ],
         "points": 15,
         "movement": 6,
@@ -41514,7 +41688,7 @@
       {
         "name": "Lothlorien Warrior\n(Waywardens of Eriador)",
         "factions": [
-          "Waywardens of Eriador"
+          "Waywardens of Eriador\n(Hyberias)"
         ],
         "points": 8,
         "movement": 8,
@@ -41584,7 +41758,7 @@
       {
         "name": "Warrior of Minas Tirith\n(Host of Eärnur)",
         "factions": [
-          "Host of Eärnur"
+          "Host of Eärnur\n(Hyberias)"
         ],
         "points": 8,
         "movement": 6,
@@ -41648,7 +41822,7 @@
       {
         "name": "Knight of Minas Tirith\n(Host of Eärnur)",
         "factions": [
-          "Host of Eärnur"
+          "Host of Eärnur\n(Hyberias)"
         ],
         "points": 15,
         "movement": 6,
@@ -41694,7 +41868,7 @@
       {
         "name": "Guard of the Fountain Court\n(Host of Eärnur)",
         "factions": [
-          "Host of Eärnur"
+          "Host of Eärnur\n(Hyberias)"
         ],
         "points": 10,
         "movement": 6,
@@ -41735,7 +41909,7 @@
       {
         "name": "Citadel Guard\n(Host of Eärnur)",
         "factions": [
-          "Host of Eärnur"
+          "Host of Eärnur\n(Hyberias)"
         ],
         "points": 8,
         "movement": 6,
@@ -41785,7 +41959,7 @@
       {
         "name": "Orc Tracker\n(Raiders from the Ered Nimras)",
         "factions": [
-          "Raiders from the Ered Nimras"
+          "Raiders from the Ered Nimras\n(Hyberias)"
         ],
         "points": 6,
         "movement": 6,
@@ -41822,7 +41996,7 @@
       {
         "name": "Mordor Orc Warrior\n(Raiders from the Ered Nimras)",
         "factions": [
-          "Raiders from the Ered Nimras"
+          "Raiders from the Ered Nimras\n(Hyberias)"
         ],
         "points": 5,
         "movement": 6,
@@ -41894,7 +42068,7 @@
       {
         "name": "Mordor Warg Rider\n(Raiders from the Ered Nimras)",
         "factions": [
-          "Raiders from the Ered Nimras"
+          "Raiders from the Ered Nimras\n(Hyberias)"
         ],
         "points": 11,
         "movement": 6,
@@ -41953,7 +42127,7 @@
       {
         "name": "Wild Warg\n(Raiders from the Ered Nimras)",
         "factions": [
-          "Raiders from the Ered Nimras"
+          "Raiders from the Ered Nimras\n(Hyberias)"
         ],
         "points": 7,
         "movement": 10,
@@ -41998,7 +42172,7 @@
             "points": 0,
             "in": [
               [
-                "Terrors of Fornost"
+                "Terrors of Fornost\n(Hyberias)"
               ]
             ]
           }
@@ -42007,7 +42181,7 @@
       {
         "name": "Bat Swarm\n(Terrors of Fornost)",
         "factions": [
-          "Terrors of Fornost"
+          "Terrors of Fornost\n(Hyberias)"
         ],
         "points": 35,
         "movement": 12,
@@ -42049,7 +42223,7 @@
       {
         "name": "Angmar Orc Warrior\n(Terrors of Fornost)",
         "factions": [
-          "Terrors of Fornost"
+          "Terrors of Fornost\n(Hyberias)"
         ],
         "points": 5,
         "movement": 6,
@@ -42112,7 +42286,7 @@
       {
         "name": "Angmar Warg Rider\n(Terrors of Fornost)",
         "factions": [
-          "Terrors of Fornost"
+          "Terrors of Fornost\n(Hyberias)"
         ],
         "points": 11,
         "movement": 6,
@@ -42171,7 +42345,7 @@
       {
         "name": "Wild Warg\n(Terrors of Fornost)",
         "factions": [
-          "Terrors of Fornost"
+          "Terrors of Fornost\n(Hyberias)"
         ],
         "points": 7,
         "movement": 10,
@@ -42216,7 +42390,7 @@
             "points": 0,
             "in": [
               [
-                "Raiders from the Ered Nimras"
+                "Raiders from the Ered Nimras\n(Hyberias)"
               ]
             ]
           }
@@ -42225,7 +42399,7 @@
       {
         "name": "Werewolf\n(Terrors of Fornost)",
         "factions": [
-          "Terrors of Fornost"
+          "Terrors of Fornost\n(Hyberias)"
         ],
         "points": 25,
         "movement": 10,
@@ -42312,7 +42486,7 @@
         ],
         "availableIn": [
           {
-            "in": "Remnants of Arnor"
+            "in": "Remnants of Arnor\n(Hyberias)"
           }
         ],
         "countAsProperty": "heroes"
@@ -42375,7 +42549,7 @@
                 "in": "Thorongil, Eagle of the Star"
               },
               {
-                "in": "Shadow of Imladris"
+                "in": "Shadow of Imladris\n(AHCreate90)"
               }
             ]
           }
@@ -42425,14 +42599,14 @@
         "countAsProperty": "heroes",
         "availableIn": [
           {
-            "in": "Brigands of Breeland"
+            "in": "Brigands of Breeland\n(Hyberias)"
           }
         ]
       },
       {
         "name": "Warrior of Minas Tirith\n(Defenders of Cair Andros)",
         "factions": [
-          "Defenders of Cair Andros"
+          "Defenders of Cair Andros\n(Hyberias)"
         ],
         "points": 8,
         "movement": 6,
@@ -42498,7 +42672,7 @@
             "points": 0,
             "in": [
               [
-                "Host of Eärnur"
+                "Host of Eärnur\n(Hyberias)"
               ]
             ]
           }
@@ -42507,7 +42681,7 @@
       {
         "name": "Knight of Minas Tirith\n(Defenders of Cair Andros)",
         "factions": [
-          "Defenders of Cair Andros"
+          "Defenders of Cair Andros\n(Hyberias)"
         ],
         "points": 15,
         "movement": 6,
@@ -42555,7 +42729,7 @@
             "points": 0,
             "in": [
               [
-                "Host of Eärnur"
+                "Host of Eärnur\n(Hyberias)"
               ]
             ]
           }
@@ -42564,7 +42738,7 @@
       {
         "name": "Ranger of Gondor\n(Defenders of Cair Andros)",
         "factions": [
-          "Defenders of Cair Andros"
+          "Defenders of Cair Andros\n(Hyberias)"
         ],
         "points": 8,
         "movement": 6,
@@ -42613,7 +42787,7 @@
       {
         "name": "Mordor War-Banner (Howdah Upgrade)",
         "factions": [
-          "Ash and Ivory"
+          "Ash and Ivory\n(AHCreate90)"
         ],
         "points": 0,
         "unique": true,
@@ -42631,7 +42805,7 @@
           {
             "all": [
               {
-                "name": "Ash and Ivory"
+                "name": "Ash and Ivory\n(AHCreate90)"
               },
               {
                 "name": "Great Beast of Gorgoroth"
@@ -42641,7 +42815,7 @@
           {
             "all": [
               {
-                "name": "Ash and Ivory"
+                "name": "Ash and Ivory\n(AHCreate90)"
               },
               {
                 "name": "Great Beast of Gorgoroth (General)"
@@ -42653,7 +42827,7 @@
       {
         "name": "Siege Drum (Howdah Upgrade)",
         "factions": [
-          "Ash and Ivory"
+          "Ash and Ivory\n(AHCreate90)"
         ],
         "points": 0,
         "unique": true,
@@ -42671,7 +42845,7 @@
           {
             "all": [
               {
-                "name": "Ash and Ivory"
+                "name": "Ash and Ivory\n(AHCreate90)"
               },
               {
                 "name": "Great Beast of Gorgoroth"
@@ -42681,7 +42855,7 @@
           {
             "all": [
               {
-                "name": "Ash and Ivory"
+                "name": "Ash and Ivory\n(AHCreate90)"
               },
               {
                 "name": "Great Beast of Gorgoroth (General)"
@@ -42766,7 +42940,7 @@
                 "in": "Thorin Oakenshield, King Under the Mountain\n(Ride to Ravenhill)"
               },
               {
-                "in": "Ride to Ravenhill"
+                "in": "Ride to Ravenhill\n(Wardens)"
               }
             ]
           }
@@ -42828,7 +43002,7 @@
                 "in": "Thorin Oakenshield, King Under the Mountain\n(Ride to Ravenhill)"
               },
               {
-                "in": "Ride to Ravenhill"
+                "in": "Ride to Ravenhill\n(Wardens)"
               }
             ]
           }
@@ -42886,7 +43060,7 @@
                 "in": "Thorin Oakenshield, King Under the Mountain\n(Ride to Ravenhill)"
               },
               {
-                "in": "Ride to Ravenhill"
+                "in": "Ride to Ravenhill\n(Wardens)"
               }
             ]
           }
@@ -42944,7 +43118,7 @@
                 "in": "Thorin Oakenshield, King Under the Mountain\n(Ride to Ravenhill)"
               },
               {
-                "in": "Ride to Ravenhill"
+                "in": "Ride to Ravenhill\n(Wardens)"
               }
             ]
           }
@@ -48853,7 +49027,7 @@
         "definition": "When the Royal War **Mumak** Tramples, it will inflict 4 Strength 9 Impact Hits."
       },
       {
-        "name": "Remnants of Arnor",
+        "name": "Remnants of Arnor\n(Hyberias)",
         "tag": "Passive",
         "definition": "Friendly **Dunedain** models treat Aranarth as a banner. Additionally, all **Dunedain** models in the same Army List as Aranarth gain the **Arnor** Keyword."
       },
@@ -48963,6 +49137,11 @@
         "name": "East-Helper",
         "definition": "Friendly **Warrior** models within 6” of Pallando gain +1 to Intelligence Tests. Additionally, when Pallando is revealed from Cunning Ambush, or chooses to Dismount, Pallando and all friendly models within 6” gain +1 Fight Value until the end of the turn.",
         "tag": "Passive"
+      },
+      {
+        "name": "Kindred in the Unseen",
+        "tag": "Passive",
+        "definition": "This model is treated as having the Invisible special rule, and ignores the Invisible special rule of enemy models as normal for a **Ringwraith**. However, **Spirit** models, Glorfindel, and models with the Invisible special rule ignore this model's Invisible special rule.\n\nFriendly models with Kindred in the Unseen may benefit from this model's Heroic Actions and may be part of the same Combat without preventing the reduction to enemy models' Fight Value.\n\nWhilst carrying a Light or Heavy Object, this model gains no benefits from the Invisible special rule."
       }
     ],
     "armyBonuses": [
@@ -50673,6 +50852,30 @@
       {
         "name": "Aim at his jambags!",
         "definition": "Whilst riding upon the Chariot, Kili the Dwarf, Champion of Erebor counts as being armed with a Dwarf bow. This is lost if Kili leaves the Chariot for any reason."
+      },
+      {
+        "name": "The Witch-King Uncloaked",
+        "definition": "The Twilight Ringwraith that is your General is treated as a Hero of Legend. Additionally, this model gains an additional point each of Might and Fate. This model's Stand Fast affects other **Ringwraith** models."
+      },
+      {
+        "name": "Servants, Spies and Brigands",
+        "definition": "Dunland models in this Army List replace their **Dunland** Faction keyword with **Mordor**. Additionally, they lose the Hatred (**Rohan**) special rule and gain the Backstabbers special rule."
+      },
+      {
+        "name": "Dread of the Unseen",
+        "definition": "Enemy **Beast** models count as having the Fearful special rule when attempting to Charge a friendly **Ringwraith** model within 3\"."
+      },
+      {
+        "name": "The Twilight King",
+        "definition": "The Twilight Ringwraith that is your General is treated as a Hero of Legend. Additionally, this model gains an additional point each of Might and Fate. This model's Stand Fast affects other **Spirit** models."
+      },
+      {
+        "name": "Breath of the Barrows",
+        "definition": "Enemy models within 6\" of a **Ringwraith** model cannot automatically pass Courage Tests and must take them as normal."
+      },
+      {
+        "name": "Gift of the Unseen",
+        "definition": "A **Ringwraith** model may still be Activated whilst Engaged in Combat (though it may not Move), and may therefore attempt to Cast Magical Powers whilst Engaged in Combat, provided there are no other friendly models involved in that Combat. The Casting Roll on this Magical Power cannot be modified."
       }
     ]
   },
