@@ -2,13 +2,9 @@
   "profileCredits": "Profiles provided by Antonio Andrino (HYBERIAS on Reddit) and Alex Hurcomb (AHCreates90).",
   "config": {
     "trackHighestDivision": true,
-    "contentVersion": "2026.09.25.27"
+    "contentVersion": "2026.10.02.1"
   },
   "appVersion": 2,
-  "update": {
-    "manifestUrl": "https://nowforwrath.github.io/data2024.update.json",
-    "contentVersion": "2026.09.22.1"
-  },
   "disallowMultipleFactions": true,
   "colors": {
     "light": {
@@ -3654,7 +3650,7 @@
         "requiredChildren": [
           {
             "name": "Twilight Ringwraith⁢",
-            "points": 70,
+            "points": 90,
             "elementPropertyName": "heroes",
             "mustBeLeader": true
           }
