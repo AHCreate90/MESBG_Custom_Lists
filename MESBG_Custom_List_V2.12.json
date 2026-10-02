@@ -2,7 +2,7 @@
   "profileCredits": "Profiles provided by Antonio Andrino (HYBERIAS on Reddit) and Alex Hurcomb (AHCreates90).",
   "config": {
     "trackHighestDivision": true,
-    "contentVersion": "2026.10.02.1"
+    "contentVersion": "2026.10.02.8"
   },
   "appVersion": 2,
   "disallowMultipleFactions": true,
@@ -2698,16 +2698,15 @@
         ]
       },
       {
-        "name": "Shadow of Imladris (AHCreate90)",
+        "name": "Estel and the Evenstar (AHCreate90)",
         "alignment": "good",
         "additionalRules": [
-          "A Shadow of Imladris Army must always include Thorongil, who must be your Army's General.",
-          "This Army cannot include more than 33% Dúnedain models."
+          "An Estel and the Evenstar Army must always include Thorongil, who must be your Army's General.",
+          "An Estel and the Evenstar Army must always include Arwen Undómiel."
         ],
         "armyBonuses": [
-          "Not Yet United",
-          "Wardens of Imladris",
-          "They Come Down From the Mountains"
+          "“Tinúviel! Tinúviel!”",
+          "Fates Entwined"
         ],
         "requiredChildren": [
           {
@@ -2715,22 +2714,15 @@
             "points": 120,
             "elementPropertyName": "heroes",
             "mustBeLeader": true
+          },
+          {
+            "name": "Arwen Undomiel",
+            "points": 70,
+            "elementPropertyName": "heroes"
           }
         ],
         "side": "good",
-        "collection": "Travels of Thorongil",
-        "counts": [
-          {
-            "propertyName": "faction",
-            "value": "Dunedain",
-            "limitPercentage": 33,
-            "roundUp": true,
-            "fromProperties": [
-              "heroes",
-              "warriors"
-            ]
-          }
-        ]
+        "collection": "Travels of Thorongil"
       },
       {
         "name": "Watchers of the Carrock (Hyberias)",
@@ -9211,7 +9203,7 @@
             "heroicTier": "Hero of Valour"
           },
           {
-            "name": "Shadow of Imladris (AHCreate90)",
+            "name": "Estel and the Evenstar (AHCreate90)",
             "heroicTier": "Hero of Valour"
           }
         ],
@@ -9254,7 +9246,7 @@
               "Rivendell",
               "King Thengel's Company (AHCreate90)",
               "The Eagle and The White Tree (AHCreate90)",
-              "Shadow of Imladris (AHCreate90)"
+              "Estel and the Evenstar (AHCreate90)"
             ]
           }
         ],
@@ -9277,7 +9269,7 @@
             "heroicTier": "Hero of Valour"
           },
           {
-            "name": "Shadow of Imladris (AHCreate90)",
+            "name": "Estel and the Evenstar (AHCreate90)",
             "heroicTier": "Hero of Valour"
           }
         ],
@@ -14743,7 +14735,7 @@
         "name": "Arwen Undomiel",
         "factions": [
           {
-            "name": "Shadow of Imladris (AHCreate90)",
+            "name": "Estel and the Evenstar (AHCreate90)",
             "heroicTier": "Hero of Valour"
           }
         ],
@@ -15054,7 +15046,7 @@
         "name": "Rivendell Captain",
         "factions": [
           {
-            "name": "Shadow of Imladris (AHCreate90)",
+            "name": "Estel and the Evenstar (AHCreate90)",
             "heroicTier": "Hero of Fortitude"
           },
           {
@@ -15108,7 +15100,7 @@
               "Rivendell",
               "Lindon",
               "The Last Alliance",
-              "Shadow of Imladris (AHCreate90)",
+              "Estel and the Evenstar (AHCreate90)",
               "Battle of Eregion (Hyberias)"
             ]
           },
@@ -25476,8 +25468,7 @@
         ],
         "faction": [
           "Rivendell",
-          "Dunedain",
-          "Peredhel"
+          "Dunedain"
         ],
         "unitType": [
           "Hero",
@@ -25495,7 +25486,8 @@
         ],
         "wargear": [
           "Hand-and-a-half weapon",
-          "Bow"
+          "Bow",
+          "Ring of Barahir (Thorongil)"
         ],
         "specialRules": [
           "Resistant to Magic",
@@ -25504,15 +25496,28 @@
         "options": [
           {
             "name": "Horse",
-            "points": 20
+            "points": 20,
+            "availableIn": [
+              "King Thengel's Company (AHCreate90)",
+              "The Eagle and The White Tree (AHCreate90)"
+            ]
           },
           {
             "name": "Armour",
-            "points": 5
+            "points": 5,
+            "availableIn": [
+              "King Thengel's Company (AHCreate90)",
+              "The Eagle and The White Tree (AHCreate90)"
+            ]
           },
           {
             "name": "Elven Cloak",
-            "points": 5
+            "points": 5,
+            "availableIn": [
+              "King Thengel's Company (AHCreate90)",
+              "The Eagle and The White Tree (AHCreate90)",
+              "Estel and the Evenstar (AHCreate90)"
+            ]
           }
         ],
         "factions": [
@@ -25525,7 +25530,7 @@
             "heroicTier": "Hero of Valour"
           },
           {
-            "name": "Shadow of Imladris (AHCreate90)",
+            "name": "Estel and the Evenstar (AHCreate90)",
             "heroicTier": "Hero of Valour"
           }
         ]
@@ -25766,7 +25771,7 @@
         ],
         "specialRules": [
           "Axes of the Dwarves!",
-          "I Myself am sitting pretty on 43",
+          "The Lord of Aglarond",
           "Mighty Hero"
         ],
         "wargear": [
@@ -30127,6 +30132,230 @@
         "options": [],
         "title": "The Witch-King",
         "limit": 1
+      },
+      {
+        "points": 150,
+        "movement": 6,
+        "fight": 5,
+        "shoot": 4,
+        "strength": 4,
+        "defence": 5,
+        "attack": 2,
+        "wounds": 3,
+        "courage": 3,
+        "intelligence": 3,
+        "might": 3,
+        "will": 6,
+        "fate": 3,
+        "race": [
+          "Wizard"
+        ],
+        "faction": [
+          "Stonefoots"
+        ],
+        "unitType": [
+          "Hero",
+          "Infantry",
+          "Unique"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Light armour",
+          "Spear of Oromë",
+          "Throwing weapons"
+        ],
+        "options": [
+          {
+            "name": "Horse",
+            "points": 20,
+            "availableIn": [
+              "Free People of the East (AHCreate90)"
+            ]
+          }
+        ],
+        "name": "Alatar the Blue⁣",
+        "factions": [
+          {
+            "name": "Council of the Istari (AHCreate90)",
+            "heroicTier": "Hero of Valour"
+          }
+        ],
+        "heroicActions": [
+          "Heroic Channelling",
+          "Heroic Resolve",
+          "Heroic Strength",
+          "Heroic Strike"
+        ],
+        "specialRules": [
+          "Stalk Unseen",
+          "Cunning Ambush",
+          "Darkness-slayer"
+        ],
+        "magicalPowers": [
+          {
+            "name": "Banishment",
+            "range": 12,
+            "casting": 5
+          },
+          {
+            "name": "Fortify Spirit",
+            "range": 12,
+            "casting": 4
+          },
+          {
+            "name": "Instill Fear",
+            "range": "Self",
+            "casting": 4
+          },
+          {
+            "name": "Protection of the Valar",
+            "range": 12,
+            "casting": 4
+          },
+          {
+            "name": "Strengthen Will",
+            "range": 12,
+            "casting": 4
+          },
+          {
+            "name": "Writhing Vines",
+            "range": "Self",
+            "casting": 3
+          }
+        ],
+        "unavailableWith": [
+          "ironfists",
+          "stiffbeards",
+          "blacklocks",
+          "Dwarf Captain‌",
+          "Dwarf King‌",
+          "Alatar the Blue‌",
+          "Pallando the Blue‌",
+          "Dwarf Captain‍",
+          "Dwarf King‍",
+          "Alatar the Blue‍",
+          "Pallando the Blue‍",
+          "Dwarf Captain⁠",
+          "Dwarf King⁠",
+          "Alatar the Blue⁠",
+          "Pallando the Blue⁠"
+        ],
+        "title": "",
+        "displayName": "Alatar the Blue"
+      },
+      {
+        "points": 150,
+        "movement": 6,
+        "fight": 5,
+        "shoot": 4,
+        "strength": 4,
+        "defence": 5,
+        "attack": 2,
+        "wounds": 3,
+        "courage": 3,
+        "intelligence": 3,
+        "might": 3,
+        "will": 6,
+        "fate": 3,
+        "race": [
+          "Wizard"
+        ],
+        "faction": [
+          "Stonefoots"
+        ],
+        "unitType": [
+          "Hero",
+          "Infantry",
+          "Unique"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Light armour",
+          "Spear of Oromë",
+          "Throwing weapons"
+        ],
+        "options": [
+          {
+            "name": "Horse",
+            "points": 20,
+            "availableIn": [
+              "Free People of the East (AHCreate90)"
+            ]
+          }
+        ],
+        "name": "Pallando the Blue⁣",
+        "factions": [
+          {
+            "name": "Council of the Istari (AHCreate90)",
+            "heroicTier": "Hero of Valour"
+          }
+        ],
+        "heroicActions": [
+          "Heroic Channelling",
+          "Heroic Defence",
+          "Heroic Resolve",
+          "Heroic Strike"
+        ],
+        "specialRules": [
+          "Cunning Ambush",
+          "Stalk Unseen",
+          "East-Helper"
+        ],
+        "magicalPowers": [
+          {
+            "name": "Bladewrath",
+            "range": 12,
+            "casting": 4
+          },
+          {
+            "name": "Enchant Blades",
+            "range": 12,
+            "casting": 4
+          },
+          {
+            "name": "Fury (Man)",
+            "range": "Self",
+            "casting": 3
+          },
+          {
+            "name": "Protection of the Valar",
+            "range": 12,
+            "casting": 4
+          },
+          {
+            "name": "Renew",
+            "range": 12,
+            "casting": 4
+          },
+          {
+            "name": "Writhing Vines",
+            "range": "Self",
+            "casting": 3
+          }
+        ],
+        "unavailableWith": [
+          "ironfists",
+          "stiffbeards",
+          "blacklocks",
+          "Dwarf Captain‌",
+          "Dwarf King‌",
+          "Alatar the Blue‌",
+          "Pallando the Blue‌",
+          "Dwarf Captain‍",
+          "Dwarf King‍",
+          "Alatar the Blue‍",
+          "Pallando the Blue‍",
+          "Dwarf Captain⁠",
+          "Dwarf King⁠",
+          "Alatar the Blue⁠",
+          "Pallando the Blue⁠"
+        ],
+        "title": "",
+        "displayName": "Pallando the Blue"
       }
     ],
     "warriors": [
@@ -37989,7 +38218,7 @@
         "name": "Rivendell Warrior",
         "factions": [
           "King Thengel's Company (AHCreate90)",
-          "Shadow of Imladris (AHCreate90)",
+          "Estel and the Evenstar (AHCreate90)",
           "Battle of Eregion (Hyberias)"
         ],
         "points": 9,
@@ -38057,7 +38286,7 @@
         "name": "Rivendell Knight",
         "factions": [
           "King Thengel's Company (AHCreate90)",
-          "Shadow of Imladris (AHCreate90)",
+          "Estel and the Evenstar (AHCreate90)",
           "Battle of Eregion (Hyberias)"
         ],
         "points": 20,
@@ -42972,12 +43201,12 @@
                 "in": "Thorongil, Eagle of the Star"
               },
               {
-                "in": "Shadow of Imladris (AHCreate90)"
+                "in": "Estel and the Evenstar (AHCreate90)"
               }
             ]
           }
         ],
-        "title": "Shadow of Imladris (AHCreate90)"
+        "title": "Estel and the Evenstar (AHCreate90)"
       },
       {
         "name": "The Gatekeeper of Bree​",
@@ -50748,6 +50977,11 @@
       {
         "name": "Blacklocks",
         "definition": "This model gains +1 Fight Value on the turn it Charges."
+      },
+      {
+        "name": "The Lord of Aglarond",
+        "tag": "Active",
+        "definition": "Friendly Dwarf models within 3\" of Gimli gain the Dominant (2) special rule."
       }
     ],
     "armyBonuses": [
@@ -52017,7 +52251,7 @@
       },
       {
         "name": "Noble Steward",
-        "definition": "Ecthelion II increases his Might and Attacks to 3 each. In addition, while Ecthelion II is alive and on the battlefield, he may expend 1 point of Will to re-roll a Priority Roll."
+        "definition": "Ecthelion II increases his Attacks and Wounds to 3 each. In addition, while Ecthelion II is alive and on the battlefield, he may expend 1 point of Will to re-roll a Priority Roll."
       },
       {
         "name": "Living Among Men",
@@ -52025,7 +52259,7 @@
       },
       {
         "name": "Preservation of Gondor's Strength",
-        "definition": "When a friendly **Warrior** model is required to take a Courage test as a result of the force being Broken, a friendly **Hero** model within 6\" may take an Intelligence test. If passed, the Courage test is automatically failed and the **Warrior** model is removed from play as having fled. A **Hero** may only use this rule once per turn.\n\nIf at least 10% of your army's starting models are removed from play through this rule, and this causes your force to be reduced below 25% of its starting size, your opponent does not score Victory Points for reducing your force below 25%. Additionally, models holding a banner that are removed through this rule still count as being on the battlefield when determining Victory Points.\n\nA **Hero** that uses this rule must Charge an enemy model in the following Move Phase if able, and gains +1 Attack until the end of the turn."
+        "definition": "When a friendly **Warrior** model is required to take a Courage Test as a result of the force being Broken, a friendly **Hero** model within 6\" that has not yet Activated this phase may take an Intelligence Test. If the Intelligence Test is passed, do not make the Courage Test; instead, immediately remove that **Warrior** model from play as though it had fled the battlefield. A **Hero** may only use this rule once per turn.\n\nIf at least 10% of your army's starting models are removed from play through this rule, and this causes your force to be reduced below 25% of its starting size, your opponent does not score Victory Points for reducing your force below 25%.\n\nAdditionally, models holding a banner that are removed through this rule still count as being on the battlefield when determining Victory Points.\n\nA **Hero** that successfully uses this rule must Charge an enemy model when it Activates later in that same Move Phase, if able. During the Fight Phase, if that **Hero** wins its Duel Roll, it may make one additional Strike."
       },
       {
         "name": "Not Yet United",
@@ -52333,7 +52567,7 @@
       },
       {
         "name": "Emissaries of the Valar",
-        "definition": "At the start of each Priority Phase, roll a D6 and apply the corresponding effect until the end of the turn: 1 — Blessing of Yavanna: all friendly models that are Alive and currently on the battlefield are affected by Renew and Blessing of the Valar. 2 — Blessing of Varda: do not roll for Priority; instead choose which player has Priority. 3 — Blessing of Oromë: all friendly models increase their Move characteristic to 8”. Additionally, whenever a model hits with a Shooting Attack that targets a friendly model, it must make an additional In The Way Test. 4 — Blessing of Nienna: friendly models may declare Heroic Channelling without expending a Might Point. 5 — Blessing of Aulë: models in this Army count as having Mighty Blow and Terror. 6 — Blessing of Manwë: friendly models may re-roll natural 1s; enemy models must re-roll natural 6s when making To Wound rolls."
+        "definition": "At the start of each Priority Phase, roll a D6 and apply the corresponding effect until the end of the turn:\n\n1: Blessing of Yavanna: all friendly models that are Alive and currently on the battlefield are affected by Renew and Blessing of the Valar.\n\n2: Blessing of Varda: do not roll for Priority; instead choose which player has Priority.\n\n3: Blessing of Oromë: all friendly models increase their Move characteristic to 8”. Additionally, whenever a model hits with a Shooting Attack that targets a friendly model, it must make an additional In The Way Test.\n\n4: Blessing of Nienna: friendly models may declare Heroic Channelling without expending a Might Point.\n\n5: Blessing of Aulë: models in this Army count as having Mighty Blow and Terror.\n\n6: Blessing of Manwë: friendly models may re-roll natural 1s; enemy models must re-roll natural 6s when making To Wound rolls."
       },
       {
         "name": "Magic of the Istari",
@@ -52482,6 +52716,14 @@
       {
         "name": "Gift of the Unseen",
         "definition": "A **Ringwraith** model may still be Activated whilst Engaged in Combat (though it may not Move), and may therefore attempt to Cast Magical Powers whilst Engaged in Combat, provided there are no other friendly models involved in that Combat. The Casting Roll on this Magical Power cannot be modified."
+      },
+      {
+        "name": "“Tinúviel! Tinúviel!”",
+        "definition": "If Aragorn is within 6\" of Arwen at the start of the Fight Phase and Arwen is Engaged in Combat, Aragorn may declare a Heroic Combat without expending Might. During this Heroic Combat, Aragorn gains a bonus of +1 To Wound when making Strikes. If successful, Aragorn must use the resulting Move to Charge an enemy model Engaged in Combat with Arwen, if able."
+      },
+      {
+        "name": "Fates Entwined",
+        "definition": "Whilst Aragorn and Arwen are within 6\" of each other, friendly models within 6\" of either Aragorn or Arwen count as being in range of a banner. Additionally, whilst Aragorn and Arwen are within 3\" of each other, they each gain a bonus of +1 to any Fate rolls they make."
       }
     ],
     "options": [
